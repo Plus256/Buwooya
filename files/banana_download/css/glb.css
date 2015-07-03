@@ -1,0 +1,1207 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0;
+	color:#000;
+	/*background:rgb(250, 255, 250);*/
+}
+
+.wrapper {
+	/*padding pushes container out but content stays in position horizontally*/
+	margin:auto;
+}
+
+div{
+	
+}
+
+a {
+	text-decoration:none;
+	color:#090;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#body {
+	position:relative;
+}
+
+#banner {
+	
+}
+#menu{
+	background:#090;
+	color:#FFF;
+}
+
+#menu ul{
+	margin:0;
+	list-style-type:none;
+	padding:0;
+}
+
+#menu ul li{
+	padding:10px;
+	cursor:pointer;
+	float:left;
+}
+
+#menu ul li:last-child{
+	float:right;
+	cursor:auto;
+}
+
+#menu ul li:last-child:hover{
+	background:none;
+	color:none;
+}
+
+#menu ul li.mobile_items{
+	display:none;
+}
+
+#menu ul li.menu_items:hover{
+	background:#060;
+	color:#FC0;
+}
+
+#menu ul li#contact_menu_item:hover{
+	background:#FC0;
+	color:#000;
+}
+
+#cover {
+	color:#FFF;
+	height:30em;
+	overflow:hidden;
+	background:#FAFAFA;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#cover img{
+	width:100%;
+	height:auto;
+}
+
+#tagline {
+	padding:10px;
+	right:0;
+	top:22em;
+	background:rgb(140, 198, 63);
+	background:rgba(140, 198, 63, 0.75);
+	position:absolute;
+	z-index:10;
+	color:#FFF;
+}
+
+#notice {
+	padding:10px;
+	top:0;
+	background:rgb(255, 204, 0);
+	background:rgba(255, 204, 0, 0.75);
+	position:fixed;
+	z-index:20;
+}
+
+#name {
+	left:30%;
+	top:20.5em;
+	width:25%;
+	font-size:150%;
+	font-weight:bold;
+	float:left;
+	letter-spacing:-2px;
+	position:absolute;
+	z-index:10;
+}
+
+#slogan {
+	left:30%;
+	top:40.5em;
+	float:left;
+	width:25%;
+	color:#036;
+	font-size:80%;
+	position:absolute;
+	z-index:10
+}
+
+#contact{
+	font-size:80%;
+	padding:10px;
+}
+
+#contact div{
+	border-bottom:1px solid #FAFAFA;
+	padding:1px;
+	text-align:right;
+}
+
+#contact div:first-child{
+	border-top:1px solid #FAFAFA;
+}
+
+#tel{
+	float:right;
+	padding:10px;
+}
+
+#short_name{
+	float:left;
+	padding:10px;
+}
+
+#description {
+	padding:10px;
+	background:#FAFAFA;
+	font-size:80%;
+	float:left;
+	margin-bottom:1em;
+	border:1px solid #EAEAEA;
+	border-left:0;
+}
+
+#buffer {
+	position:fixed;
+	z-index:200;
+	padding:2em 0;
+	color:#036;
+	font-size:80%;
+	text-align:center;
+}
+
+#noscript{
+	background:#F60;
+	text-align:center;
+	color:#FFF;
+	width:100%;
+	position:fixed;
+	z-index:20;
+	padding:10px;
+}
+
+#dialog_box{
+	color:#036;
+	display:none;
+	position:fixed;
+	z-index:100;
+	background:#FFF;
+}
+
+#dialog_box_head{
+	padding:10px;
+	background:#F5F5F5;
+	text-shadow:1px 1px 1px #FFF;
+	color:#555;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#dialog_box_body{
+	padding:10px;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#dialog_box_foot{
+	padding:10px;
+}
+
+.but{
+	/*not floating a div without a width declaration causes it to take 100% of parent*/
+	/*floating a div without a width declaration causes it to be as wide as to only occypy its content*/
+	/*floating a div with a width declaration causes it to take that % of parent*/
+	background:#FC0;
+	font-size:80%;
+	padding:10px;
+	color:#036;
+	cursor:pointer;
+	border:1px solid #F90;
+	text-align:center;
+}
+
+.but:hover{
+	box-shadow:0 0 1px #E1E1E1;
+}
+
+#msg_but{
+	width:10%;
+	margin-right:10px;
+	float:right;
+}
+
+#send_msg_but{
+	float:right;
+	width:20%;
+}
+
+#dialog_box_overlay{
+	display:none;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-webkit-opacity:0.5;
+	-khtml-opacity: 0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:90;
+}
+
+div#msg_area {
+	border:none;
+	font-size:80%;
+	width:100%;
+	max-width:100%;
+	min-height:5em;
+	/*a word (charcters without a space) stays on a single line by default - it does not wrap.
+	so having a very long one causes it to get off the text area*/
+	background:#FAFAFA;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+div#msg_area img{
+	max-width:100%;
+	height:auto;
+}
+
+div#msg_area:focus{
+	min-height:10em;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+#msg_tit{
+	float:left;
+	width:50%;
+}
+
+#msg_esc{
+	float:right;
+	color:#CCC;
+	font-weight:bold;
+	cursor:pointer;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	text-align:center;
+}
+
+#msg_esc:hover{
+	color:#A1A1A1;
+}
+
+.spacer{
+	clear:both;
+}
+
+#dialog_head_spacer{
+	clear:both;
+}
+
+#dialog_foot_spacer{
+	clear:both;
+}
+
+#hlink{
+	font-size:100%;
+}
+
+#hlink a:hover{
+	color:#069;
+}
+
+#footer {
+	font-size:70%;
+	color:#930;
+	position:relative;
+}
+
+#copyright{
+	padding:10px;
+}
+
+input[type="text"].msg_dialog_text_input{
+	width:100%;
+	font-size:80%;
+	background:#FAFAFA;
+	border:none;
+	height:2.5em;
+	color:#036;
+	padding-left:0;
+	padding-right:0;
+	line-height:2.5em;
+	margin-bottom:10px;
+}
+
+input[placeholder] {
+	color:#000;
+}
+
+input[type="text"]#unm {
+	width:96.5%;
+	border:0;
+}
+
+input[type="password"]#pwd {
+	margin-bottom:0;
+	width:71%;
+	border:0;
+}
+
+input[type="button"], input[type="submit"], button {
+	width:5em;
+	border:none;
+	height:2.5em;
+	color:#FFF;
+	background:#94b230;
+	line-height:2.5em;
+	cursor:pointer;
+	margin-bottom:10px;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+input[type="button"]#log, input[type="submit"]#log, button#log {
+	margin-bottom:0;
+	float:right;
+	width:22.5%;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, button:hover {
+	 
+}
+
+select {
+	margin-bottom:10px;
+	padding:7px 5px;
+	border:1px solid #09F;
+}
+
+#usr_pro {
+	float:left;
+	width:35%;
+}
+
+#usr_pro, #sosh{
+	border:1px solid #E1E1E1;
+	border-radius:5px;
+	overflow:hidden;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+
+#sosh {
+	float:right;
+	width:64%;
+}
+
+#main{
+	background:rgba(255, 255, 255, 0.5);
+	float:left;
+	padding:10px;
+}
+
+#carousel{
+	
+}
+
+#carousel img{
+	
+}
+
+#logc {
+	position:absolute;
+	margin:0 auto;
+	top:0;
+	right:13%;
+	padding:10px;
+	color:#FFF;
+	width:22%;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+#logc a{
+	color:#000;
+}
+
+#l_pwd{
+	margin-top:1em;
+	font-size:85%;
+}
+
+#log_intro{
+	margin-bottom:1em;
+	font-size:90%;
+}
+
+#log_err{
+	font-size:85%;
+	color:#000;
+}
+
+#dash{
+	float:left;
+	font-size:90%;
+	width:100%;
+	background:#e76d44;
+	color:#000;
+}
+
+#fnd{
+	float:left;
+	line-height:3em;
+}
+
+input[type="text"]#srch{
+	width:11em;
+	border:none;
+	height:2em;
+	padding:0 20px;
+	margin-bottom:0;
+	background:#E1E1E1;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+input[type="text"]#srch:focus{
+	background:#FFF;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+#set{
+	color:#000;
+	cursor:pointer;
+	padding:10px;
+	float:right;
+	line-height:1.4em;
+}
+
+#set:hover{
+	color:#FFF;
+}
+
+#set:hover ul li ul{
+	color:none;
+	visibility:visible;
+}
+
+#set:hover a{
+	color:none;
+}
+
+#set a{
+	color:#A1A1A1;
+	display:block;
+	padding:10px;
+}
+
+#set a:hover{
+	text-decoration:none;
+}
+
+#set ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+
+#set ul li ul{
+	position:absolute;
+	text-shadow:none;
+	background:#FFF;
+	right:-8px;
+	color:#A1A1A1;
+	width:20em;
+	top:30px;
+	z-index:10;
+	box-shadow:0 0 5px #D5D5D5;
+	-moz-box-shadow:0 0 5px #D5D5D5;
+	-webkit-box-shadow:0 0 5px #D5D5D5;
+	visibility:hidden;
+	padding:5px 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #EFEFEF;
+	transition:all 0.5s ease 0.1s;
+	-moz-transition:all 0.5s ease 0.1s;
+	-webkit-transition:all 0.5s ease 0.1s;
+}
+
+#set ul li ul:after{
+	content:"";
+	position:absolute;
+	top:-20px;
+	right:50px;
+	border:10px solid transparent;
+	border-bottom-color:#FFF;
+}
+
+#set ul li ul li{
+	border-bottom:1px solid #EFEFEF;
+}
+
+#set ul li ul li#first{
+	
+}
+
+#set ul li ul li#last{
+	border:none;
+}
+
+#set ul li ul li:hover{
+	background:#FAFAFA;
+	transition:all 0.5s ease 0.1s;
+	-moz-transition:all 0.5s ease 0.1s;
+	-webkit-transition:all 0.5s ease 0.1s;
+}
+
+#set ul li ul li:hover a{
+	color:#94b230;
+	transition:all 0.5s ease 0.1s;
+	-moz-transition:all 0.5s ease 0.1s;
+	-webkit-transition:all 0.5s ease 0.1s;
+}
+
+#ajax_loader{
+	line-height:2.7em;
+	color:#FFF;
+	position:relative;
+	left:30%;
+}
+
+#nem_pic{
+	border-bottom:1px solid #E1E1E1;
+	float:left;
+}
+
+#nem{
+	width:60%;
+	text-decoration:underline;
+	float:right;
+	line-height:4em;
+}
+
+#pic{
+	width:30%;
+	padding:10px;
+	float:left;
+}
+
+#pic img{
+	width:100px;
+	height:100px;
+	max-width:100px;
+	max-height:100px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	box-shadow:0px 0px 5px #A1A1A1;
+	-moz-box-shadow:0px 0px 5px #A1A1A1;
+	-webkit-box-shadow:0px 0px 5px #A1A1A1;
+	-ms-box-shadow:0px 0px 5px #A1A1A1;
+	-o-box-shadow:0px 0px 5px #A1A1A1;
+}
+
+#bio{
+	float:left;
+}
+
+.bio_itm{
+	padding:10px;
+	background:#F5F5F5;
+	border-bottom:1px solid #E1E1E1;
+}
+
+.bio_itm:hover{
+	background:#FFF;
+}
+
+#str, #end{
+	line-height:1.5em;
+}
+
+#sosh_title{
+	padding:10px;
+}
+
+#sosh_main{
+	
+}
+
+#sosh_post{
+	border-top:1px solid #E1E1E1;
+	float:left;
+}
+
+#sosh_post:first-child{
+	border-top:none;
+	float:left;
+}
+
+#sosh_post:hover{
+	background:#FAFAFA;
+}
+
+#jaz{
+	
+}
+
+textarea{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#jaz_ctrl{
+	padding:0 10px;
+	overflow:hidden;
+	width:94%;
+}
+
+#jaz_ctrl_count{
+	float:left;
+	width:30%;
+	padding-bottom:10px;
+	color:#e76d44;
+}
+
+#jaz_ctrl_but{
+	float:right;
+	width:50%;
+	text-align:right;
+}
+
+#jaz_ctrl_but_but{
+	margin-right:0;
+}
+
+#sosh_post_head_pic{
+	float:left;
+	width:15%;
+}
+
+#sosh_post_head_pic img{
+	height:65px;
+	width:65px;
+	max-width:65px;
+	max-height:65px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	box-shadow:0px 0px 5px #A1A1A1;
+	-moz-box-shadow:0px 0px 5px #A1A1A1;
+	-webkit-box-shadow:0px 0px 5px #A1A1A1;
+	-ms-box-shadow:0px 0px 5px #A1A1A1;
+	-o-box-shadow:0px 0px 5px #A1A1A1;
+}
+
+#sosh_post_head_nem{
+	float:right;
+	width:80%;
+	color:#e76d44;
+	/*e76d44, 94b230*/
+	padding:0 10px;
+}
+
+#sosh_post_head{
+	float:left;
+	padding:10px 10px 0 10px;
+}
+
+#sosh_post_body{
+	padding:5px 10px;
+	float:left;
+	width:95%;
+	font-size:90%;
+	overflow:hidden;
+}
+
+#sosh_post_head_nem_whn{
+	float:left;
+	color:#94b230;
+	font-size:75%;
+}
+
+#sosh_post_foot{
+	float:left;
+	color:#94b230;
+	font-size:80%;
+	padding:5px 10px 10px 10px;
+}
+
+#sosh_post_head_nem_nem{
+	line-height:2.5em;
+}
+
+textarea#com_field {
+	border:1px solid #E1E1E1;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:90%;
+	resize:none;
+	height:5em;
+	padding:5px;
+	margin:10px;
+	overflow:hidden;
+	width:94%;
+	max-width:94%;
+	height:1.5em;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+textarea#com_field:focus{
+	height:6em;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+#sosh_post_comment{
+	float:left;
+}
+
+#tpd{
+	border-bottom:1px solid #E1E1E1;
+}
+
+#ch_pwd{
+	padding:10px;
+}
+
+#more_acc {
+	float:left;
+	width:100%;
+	padding:0 10px;
+}
+
+table.wide {
+	color:#09F;
+	font-size:85%;
+	width:100%;
+	max-width:96%;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+table.wide tr {
+	cursor:pointer;
+	border:1px solid #E1E1E1;
+	border-left:none;
+	border-right:none;
+}
+
+table.wide tr.close_tot {
+	color:#000;
+	font-weight:bold;
+}
+
+.cls_tot {
+	text-decoration:underline;
+}
+
+table.wide tr:hover {
+	background:#F5F5F5;
+}
+
+table.wide td {
+	padding:5px;
+}
+
+table.wide th {
+	text-align:left;
+	padding:5px;
+}
+
+table.wide thead {
+	background:#FAFAFA;
+	color:#A1A1A1;
+	border:1px solid #E1E1E1;
+	border-left:none;
+	border-right:none;
+}
+
+table.wide tr:nth-child(even) {
+    background:#FAFAFA;
+	color:#F06;
+}
+
+table.wide tr:nth-child(even).close_tot {
+	color:#000;
+	font-weight:bold;
+}
+
+table.wide tr:nth-child(even):hover {
+    background:#F5F5F5;
+}
+
+#calc { 
+    position: relative;
+	float:left;
+	width:50%;
+    padding: 10px; 
+	overflow:hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4); 
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.4); 
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.4); 
+	-o-box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	-m-box-shadow: 0 0 5px rgba(0,0,0,0.4); 
+}
+
+.canvas{
+	position:absolute;
+}
+
+#about{
+	float:right;
+	width:44%;
+	padding:5px;
+	border:1px solid #E1E1E1;
+}
+
+.abt_cnt{
+	padding:10px;
+	max-width:90%;
+	font-size:93%;
+}
+
+.abt_cnt img{
+	box-shadow:0 0 5px #D5D5D5;
+	-moz-box-shadow:0 0 5px #D5D5D5;
+	-webkit-box-shadow:0 0 5px #D5D5D5;
+}
+
+.abt_title{
+	text-decoration:underline;
+}
+
+.abt_pic{
+	float:left;
+	width:17%;
+}
+
+.name_phn{
+	float:right;
+	width:80%;
+	line-height:1.5em;
+}
+
+.abt_title div{
+	clear:both;
+}
+
+.abt_info{
+	width:100%;
+	float:left;
+	padding:10px 0;
+}
+
+#long_description{
+	padding:10px 10px 0 10px;
+}
+
+#carousel_container{
+	margin:10px 10px 0 10px;
+	/*It seems that as you are setting the dimensions of the container div indirectly by positioning, those browsers fail to predict the height of the div and render the padding properly.*/
+	position:relative;
+	height:20em;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+#carousel_container:hover span.car_control{
+	display:block;
+}
+.car_item{
+	height:100%;
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+.car_item_next_container{
+	margin-left:10px;
+	position:relative;
+}
+
+.car_item_next{
+	width:30%;
+	max-height:5.5em;
+	cursor:pointer;
+	overflow:hidden;
+}
+
+/*Thank you Lord, I achieved equidistant margins. Make the first and last elements absolutely positioned and to the left and right, repsectively, of the
+relatively positioned parent.
+Give the second/middle element an auto margin so that it centres itself inside the container.*/
+
+.car_item_next:first-child{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.car_item_next:nth-child(2){
+	margin:auto;
+}
+
+.car_item_next:last-child{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.car_item_next img{
+	width:100%;
+	height:auto;
+}
+
+#car_left{
+	float:left;
+	width:50%;
+	height:100%;
+	overflow:hidden;
+}
+
+#car_left img{/*Am maintaining a width of 550px and height 440px - i think it works best for the fluid layout.*/
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+#car_right{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+#caption{
+	padding:10px;
+	border:1px solid #E1E1E1;
+	border-left:none;
+	position:absolute;
+	top:30%;
+}
+
+#caption_header{
+	color:#090;
+}
+
+#caption_body{
+	font-size:80%;
+	margin:10px 0;
+}
+
+#caption_footer a{
+	color:#930;
+}
+
+#gallery_title, #reviews_title{
+	padding:10px;
+	border-top:1px solid #FC0;
+	border-bottom:1px solid #FC0;
+}
+
+.car_control{
+	color:#E1E1E1;
+	position:absolute;
+	z-index:80;
+	font-weight:bold;
+	font-size:500%;
+	cursor:pointer;
+	border:1px solid #E1E1E1;
+	width:1em;
+	top:36%;
+	height:1em;
+	line-height:0.9em;
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	padding:5px;
+	display:none;
+}
+
+.car_control:hover{
+	background:rgb(242, 242, 242);
+	background:rgba(242, 242, 242, 0.3);
+	color:#FFF;
+}
+
+#car_prev{
+	left:0.5em;
+	text-align:left;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-webkit-opacity:0.6;
+	-khtml-opacity: 0.6;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+#car_prev:hover{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	-khtml-opacity:0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+#car_next{
+	right:0.5em;
+	text-align:right;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-webkit-opacity:0.3;
+	-khtml-opacity: 0.3;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+#car_next:hover{
+	color:#E1E1E1;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-webkit-opacity:0.9;
+	-khtml-opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+#reviews{
+	margin:10px 0;
+}
+
+#reviews_action_call{
+	float:right;
+}
+
+#reviews_title_title{
+	float:left;
+}
+
+#reviews_take_action{
+	cursor:pointer;
+	color:#090;
+	border:1px solid #090;
+	padding:0 5px;
+}
+
+#reviews_take_action:hover{
+	color:#FFF;
+	background:#090;
+	border:1px solid #060;
+}
+
+#reviews_body{
+	padding:10px;
+	font-size:80%;
+	position:relative;
+}
+
+#guest_review{
+	width:30%;
+}
+
+#guest_review:first-child{
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+#guest_review:nth-child(2){
+	margin:auto;
+}
+
+#guest_review:last-child{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+#guest_review_words{
+	
+}
+
+#guest_review_guest{
+	color:#A1A1A1;
+}
+
+#guest_review_from{
+	color:#930;
+}
+
+#gallery_body{
+	padding:0 10px;
+}
+
+.gallery_item_row{
+	margin-top:10px;
+}
+
+.gallery_item_row div{
+	float:right;
+	width:10em;
+	height:10em;
+	overflow:hidden;
+	cursor:pointer;
+	margin-left:3.7%;
+}
+
+.gallery_item_row div:first-child{
+	float:left;
+	margin:0;
+}
+
+.gallery_item_row div img{
+	width:100%;
+	height:100%;
+}
+
+#map_canvas{
+	height:100%;
+	width:100%;
+}
+
+#map_container{
+	height:25em;
+	width:auto;
+	padding:10px;
+}

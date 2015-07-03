@@ -1,0 +1,43 @@
+[
+
+{
+	"img":"img/20.jpg",
+	"title":"An Extraordinary Destination",
+	"story":"From the moment you arrive in Uganda, landing at Entebbe's modern international airport, with its breathtaking equatorial location on the forested shore of island-strewn Lake Victoria, it is clear that Uganda is an extraordinary destination.",
+	"htext":"Find out More",
+	"href":"index.php"
+},
+
+{
+	"img":"img/19.jpg",
+	"title":"The Pearl of Africa",
+	"story":"Famously called the Pearl of Africa by Winston Churchill, Uganda is home to one of the most diverse and concentrated ranges of African wildlife including the highly endangered mountain gorilla and the endangered common chimpanzee.",
+	"htext":"Explore the Pearl of Africa",
+	"href":"index.php"
+},
+
+{
+	"img":"img/16.jpg",
+	"title":"An Urban Town",
+	"story":"Dominated by an expansive golf course leading down to the lakeshore, and a century-old botanical garden alive with the chatter of acrobatic monkeys and colourful tropical birds, Entebbe itself is the least obviously urban of all comparably sized African towns.",
+	"htext":"Book Now",
+	"href":"index.php"
+},
+
+{
+	"img":"img/18.jpg",
+	"title":"A Modern Airport",
+	"story":"Entebbe International Airport, which lies 40km from the capital Kampala and fifteen minutes drive from Banana Village, is serviced by a number of international airlines. Uganda can also be reached overland from Kenya, Rwanda and Tanzania.",
+	"htext":"Make Arrangements",
+	"href":"index.php"
+},
+
+{
+	"img":"img/28.jpg",
+	"title":"Art and Culture",
+	"story":"Uganda is a country with a diverse Ecology, Art and Cultural heritage. You will love what you see, including the famous savannah grasslands, tropical rain forests, the snow-capped mountains, the incredible Nile and elegant islands.",
+	"htext":"Tour Experiences",
+	"href":"index.php"
+}
+
+]

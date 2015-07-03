@@ -1,0 +1,43 @@
+[
+
+{
+	"img":"img/4.jpg",
+	"title":"Welcome to Banana Village",
+	"story":"Banana Village is an idyllic holiday and retreat centre hidden away in the peaceful village of Kitala-Nalugala, just 10 minutes from Entebbe International Airport and 40 minutes from Kampala.",
+	"htext":"Find out More",
+	"href":"index.php"
+},
+
+{
+	"img":"img/11.jpg",
+	"title":"Welcome to Uganda",
+	"story":"Uganda is a country in East Africa, with an altitude between 4000 and 6000 feet above sea level and has a wonderful climate throughout the year. It is also home to one of the most diverse and concentrated ranges of African wildlife.",
+	"htext":"Explore the Pearl of Africa",
+	"href":"index.php"
+},
+
+{
+	"img":"img/3.jpg",
+	"title":"Awesome Accomodation",
+	"story":"Our bandas (huts) have thatched roofs specially selected from savannah grass which ensures comfortable temperatures day and night. All bandas are self contained with private bathrooms and toilets.",
+	"htext":"Book Now",
+	"href":"index.php"
+},
+
+{
+	"img":"img/13.jpg",
+	"title":"Activities in the area",
+	"story":"Uganda hosts over 1500 species of birds which can be found almost everywhere in the country. Arrangements can be made to visit and see the Shoebill Stork, African Fish Eagle, the Red-chested Cuckoo and the Horn Bills - to mention but a few.",
+	"htext":"Make Arrangements",
+	"href":"index.php"
+},
+
+{
+	"img":"img/12.jpg",
+	"title":"Art and Culture",
+	"story":"Uganda is a country with a diverse Ecology, Art and Cultural heritage. You will love what you see, including the famous savannah grasslands, tropical rain forests, the snow-capped mountains, the incredible Nile and elegant islands.",
+	"htext":"Tour Experiences",
+	"href":"index.php"
+}
+
+]

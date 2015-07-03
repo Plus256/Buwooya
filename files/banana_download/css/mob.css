@@ -1,0 +1,248 @@
+@media only screen and (min-width:981px){
+	.wrapper{
+		width:75%;
+	}
+}
+
+@media only screen and (max-width:980px){	
+	
+}
+
+@media only screen and (max-width:800px){	
+	
+}
+
+@media only screen and (max-width:757px){	
+	
+}
+
+@media only screen and (max-width:640px){	
+	#footer{
+		text-align:center;
+	}
+	
+	#reviews_title{
+		text-align:center;
+	}
+	
+	#buffer{
+		width:100%;
+	}
+	
+	#banner{
+		display:none;
+	}
+	
+	#menu ul li.menu_items{
+		float:none;
+		display:none;
+	}
+	
+	#menu ul li.contact_items{
+		float:none;
+		display:none;
+	}
+	
+	#menu ul li.mobile_items{
+		display:block;
+	}
+	
+	#menu ul li.mobile_items#tel{
+		float:right;
+	}
+	
+	#menu ul li.mobile_items:first-child{
+		background:#060;
+	}
+	
+	#menu ul li.mobile_items:first-child:hover div{
+		background:#FC0;
+	}
+	
+	#menu ul li:last-child{
+		float:left;
+		cursor:pointer;
+	}
+	
+	#menu ul li:last-child:hover{
+		background:#FC0;
+		color:#000;
+	}
+	
+	#menu ul li.mobile_items#short_name, #menu ul li.mobile_items#tel{
+		cursor:auto;
+		line-height:2.5em;
+	}
+	
+	.menu_icon{
+		padding:5px;
+		background:#FFF;
+	}
+	
+	.menu_icon:nth-child(2){
+		margin:5px 0;
+	}
+	
+	#menu ul li{
+		
+	}
+	
+	#menu ul li ul{
+		display:none;
+		position:absolute;
+		z-index:10;
+		background:#FFF;
+		left:0;
+		width:100%;
+		overflow:hidden;
+	}
+	
+	#menu ul li ul li{
+		width:100%;
+		color:#090;
+		border-bottom:1px solid #F5F5F5;
+	}
+	
+	#menu ul li ul li:last-child{
+		border-bottom:0;
+	}
+	
+	#menu ul li ul li:hover{
+		background:#060;
+		color:#FC0;
+	}
+	
+	#menu ul li:hover ul{
+		display:block;
+	}
+	
+	#img{
+		float:none;
+		margin:0 0 10px 0;
+		width:auto;
+	}
+	
+	.car_item_next{
+		display:none;
+	}
+	#car_item{
+		overflow:visible;
+	}
+	
+	#car_left{
+		float:none;
+		width:auto;
+	}
+	
+	#carousel_container{
+		height:15em;
+		margin-left:0;
+		margin-right:0;
+	}
+	
+	#car_right{
+		height:auto;
+		position:relative;
+		bottom:20%;
+		background:rgb(0, 0, 0);
+		background:rgba(0, 0, 0, 0.3);
+	}
+	
+	.car_control{
+		top:30%;
+	}
+	
+	#caption{
+		border:none;
+		position:relative;
+	}
+	
+	#caption_body{
+		color:#FFF;
+		margin:0;
+		display:none;
+	}
+	
+	#caption_header{
+		color:#FFF;
+		text-align:center;
+		font-size:80%;
+	}
+	
+	#caption_footer{
+		font-size:80%;
+		display:none;
+	}
+	
+	#car_prev{
+		left:20px;
+		opacity:0.6;
+		filter:alpha(opacity=60);
+		-moz-opacity:0.6;
+		-webkit-opacity:0.6;
+		-khtml-opacity: 0.6;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	}
+	
+	#car_prev:hover{
+		opacity:0.8;
+		filter:alpha(opacity=80);
+		-moz-opacity:0.8;
+		-webkit-opacity:0.8;
+		-khtml-opacity:0.8;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	}
+	
+	#car_next{
+		right:20px;
+		opacity:0.6;
+		filter:alpha(opacity=60);
+		-moz-opacity:0.6;
+		-webkit-opacity:0.6;
+		-khtml-opacity: 0.6;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	}
+	
+	#car_next:hover{
+		color:#E1E1E1;
+		filter:alpha(opacity=80);
+		-moz-opacity:0.8;
+		-webkit-opacity:0.8;
+		-khtml-opacity:0.8;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	}
+	
+	#gallery{
+		display:none;
+	}
+	
+	#map_container{
+		padding:0;
+	}
+	
+	#guest_review{
+		width:auto;
+	}
+	
+	#guest_review:first-child{
+		position:static;
+		margin-bottom:10px;
+	}
+	
+	#guest_review:nth-child(2){
+		margin:0;
+		margin-bottom:10px;
+	}
+	
+	#guest_review:last-child{
+		position:static;
+	}
+	
+	#reviews_action_call{
+		float:none;
+	}
+	
+	#reviews_title_title{
+		float:none;
+	}
+}

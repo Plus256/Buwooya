@@ -1,0 +1,43 @@
+[
+
+{
+	"img":"img/1.jpg",
+	"title":"African Experiences",
+	"story":"Banana village is a family run business dedicated to offering real African life experiences in an African setting. The Semakadde family has built Banana Village around the philosophy that every guest at the village is a chief whose desires and needs command respect and personal attention.",
+	"htext":"Find out More",
+	"href":"index.php"
+},
+
+{
+	"img":"img/22.jpg",
+	"title":"Eco Tourism",
+	"story":"The management of Banana Village has a deliberate eco tourism inclination that aims at conserving the environment and improving the well being of local people.",
+	"htext":"Join the Campaign",
+	"href":"index.php"
+},
+
+{
+	"img":"img/2.jpg",
+	"title":"Beautiful Gardens",
+	"story":"The best thing about Banana Village is our beautiful gardens which are a joy to be in. There is space for children to play, to find a quiet solitary place, or to meet friends or associates on the porch looking over the land.",
+	"htext":"Book Now",
+	"href":"index.php"
+},
+
+{
+	"img":"img/14.jpg",
+	"title":"Safe and Friendly",
+	"story":"Situated just six miles from Entebbe Airport off the Entebbe-Kampala highway, Banana Village is hidden away in the quiet, peaceful village of Kitala-Nalugala. This village is known for its safe and friendly atmosphere.",
+	"htext":"Make Arrangements",
+	"href":"index.php"
+},
+
+{
+	"img":"img/17.jpg",
+	"title":"Food and Hospitality",
+	"story":"At Banana Village visitors enjoy tasting the local dishes made in our traditional kitchen. Most of our our fresh fish, fruits and vegetables are grown or purchased locally and we regularly receive feedback from guests praising our hospitality.",
+	"htext":"Tour Experiences",
+	"href":"index.php"
+}
+
+]

@@ -1,0 +1,922 @@
+@charset "utf-8";
+
+#footer {
+	font-size:80%;
+	color:#A1A1A1;
+	margin-top:10px;	
+}
+
+#footer_links {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:right;
+}
+
+#footer_links li {
+	float:left;
+	padding:0 5px;
+	border-right:1px solid #A1A1A1;
+}
+
+#footer_links li:last-child {
+	border-right:none;
+}
+
+#clr {
+	clear:both;
+}
+
+#sign_in {
+	float:right;
+}
+
+#home_info {
+	border:1px solid #E1E1E1;
+	padding:10px;
+	width:40%;
+	float:left;
+}
+
+#home_info_wrapper{
+	background:#5E5E5E;
+	position:relative;
+}
+
+#err {
+	color:#F00;
+	border:1px solid #F00;
+	padding:10px;
+	background:#FFC;
+	margin-bottom:10px;
+}
+
+#succ {
+	color:#090;
+	border:1px solid #0C0;
+	padding:10px;
+	background:#9FC;
+	margin-bottom:10px;
+}
+
+#tagline {
+	padding:10px;
+	background:rgb(0, 174, 239);
+	background:rgba(0, 174, 239, 0.75);
+	width:75%;
+	text-align:right;
+	color:#FFF;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:100;
+}
+
+#notice {
+	padding:10px;
+	background:rgb(255, 204, 0);
+	background:rgba(255, 204, 0, 0.75);
+	color:#000;
+	width:25%;
+	text-align:left;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#logo {
+	padding:4em 10px 10px 10px;
+	float:right;
+}
+
+#logo img{
+	width:100%;
+	height:auto;
+}
+
+#name {
+	font-size:150%;
+	font-weight:bold;
+	letter-spacing:-1px;
+	color:#09F;
+	position:absolute;
+	top:27%;left:0;
+	padding:10px;
+}
+
+#slogan {
+	position:absolute;
+	top:35%;left:5%;
+	color:#FFF;
+	font-size:80%;
+	padding:10px;
+}
+
+#contact{
+	font-size:80%;
+	color:#FC0;
+	clear:both;
+}
+
+#contact div{
+	border-bottom:1px solid #7E7E7E;
+	padding:1px 10px;
+	text-align:left;
+}
+
+#contact div:first-child{
+	border-top:1px solid #7E7E7E;
+}
+
+#tel{
+	color:#09F;
+}
+
+#mob{
+	color:#09F;
+}
+
+#description {
+	padding:10px;
+	background:rgb(255, 255, 255);
+	background:rgba(255, 255, 255, 0.6);
+	font-size:85%;
+	text-align:center;
+	color:#036;
+	margin-top:10px;
+}
+
+#order_form_container {
+	background:#FAFAFA;
+	float:left;
+	width:95%;
+	border:1px solid #E1E1E1;
+	padding:10px;
+	margin:0.5em 0;
+}
+
+#main_menu {
+	background:#FAFAFA;
+	margin:10px 0;
+	font-size:85%;
+	border-bottom:1px solid #A1A1A1;
+	border-top:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	position:relative;
+	z-index:2;
+}
+
+#menu {
+	float:left;
+}
+
+#details {
+	float:right;
+}
+
+#details a{
+	color:#F00;
+}
+
+#details li {
+	float:right;
+	margin:0 5px;
+	position:relative;
+	line-height:2.5em;
+}
+
+#main_menu ul {
+	padding:0;
+	list-style-type:none;
+	margin:0;
+}
+
+#menu li {
+	float:left;
+	position:relative;
+	background:#E1E1E1;	
+	line-height:2.5em;
+	border-left:1px solid #A1A1A1;
+}
+
+#menu li:last-child {
+	border-right:1px solid #A1A1A1;
+}
+
+#menu li a {
+	display:block;
+	color:#000;
+	padding:0 5px;
+	cursor:default;	
+}
+
+#menu li a:hover {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#menu li:hover {
+	background:#09F;
+}
+
+#menu li ul {
+	position:absolute;
+	visibility:hidden;
+	left:-1px;
+	border-right:1px solid #A1A1A1;
+}
+
+#menu li ul li {
+	border-bottom:1px solid #A1A1A1;
+	width:13.3em;
+	line-height:normal;
+}
+
+#menu li:hover ul {
+	visibility:visible;
+}
+
+#menu li:hover ul li a {
+	padding:5px;
+}
+
+#menu li ul li:first-child {
+	border-top:1px solid #A1A1A1;
+}
+
+#cpanel {
+	border:1px solid #E1E1E1;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+#order_icon {
+	background:url("../image/salesorder.png") no-repeat center;
+}
+
+#analysis_icon {
+	background:url("../image/analytics.png") no-repeat center;
+}
+
+#purchaseorder_icon {
+	background:url("../image/purchaseorder.png") no-repeat center;
+}
+
+#products_icon {
+	background:url("../image/product.png") no-repeat center;
+}
+
+#fleet_icon {
+	background:url("../image/fleet.png") no-repeat center;
+}
+
+#user_icon {
+	background:url("../image/user.png") no-repeat center;
+}
+
+#customer_icon {
+	background:url("../image/customer.png") no-repeat center;
+}
+
+#receipts_icon {
+	background:url("../image/salesinvoice.png") no-repeat center;
+}
+
+#salaries_icon {
+	background:url("../image/salary.png") no-repeat center;
+}
+
+#raw_icon {
+	background:url("../image/accounting.png") no-repeat center;
+}
+
+#payment_icon {
+	background:url("../image/payment.png") no-repeat center;
+}
+
+#cpanel_inner {
+	padding:10px 10px 0 10px;
+	border:1px solid #E1E1E1;
+}
+
+#cpanel_inner_left {
+	float:left;
+	border:1px solid #E1E1E1;
+	padding:10px;
+	font-size:90%;
+	margin:0 10px 10px 0;
+}
+
+#cpanel_inner_main {
+	position:relative;
+	overflow:hidden;
+}
+/*MEDIA QUERIES FOR RESPONSIVE DESIGN*/
+@media only screen and (max-width:980px){
+	#cpanel_inner_main{
+		float:none;
+	}
+	
+	#cpanel_inner_left{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:800px){	
+	#details li:last-child{
+		display:none;
+	}
+	#footer_links{
+		display:none;
+	}
+	.footer_child{
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width:640px){	
+	#menu li{
+		display:none;
+	}
+	
+	#menu li:first-child{
+		display:block;
+		border-right:1px solid #A1A1A1;
+	}
+	table{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:757px){	
+	#sign_in {
+		float:none;
+	}
+	
+	#home_info {
+		width:auto;
+		float:none;
+	}
+	
+	input[type="submit"]{
+		width:100%;
+	}
+	
+	input[type="text"].login_inputs{
+		width:100%;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+	}
+	
+	input[type="password"].login_inputs{
+		width:100%;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+	}
+}
+
+#fhl_logo {
+	background:url("../image/fhl.png") no-repeat;
+	background-position:center;
+	width:100px;
+	height:100px;
+}
+
+#cpanel_inner_left_logo {
+	background:url("../image/fhl.png") no-repeat;
+	background-position:center;
+	width:85px;	
+	height:85px;
+	float:left;
+	margin-right:5px;
+	border:1px solid #E1E1E1;
+}
+
+#cpanel_inner_left_option{		
+	width:85px;
+	height:85px;
+	float:left;
+	overflow:hidden;
+	font-size:90%;
+	text-shadow:1px 1px 1px #000;
+	color:#FFF;
+}
+
+#cpanel_inner_left_name {
+	padding:5px 0;
+	color:#000;
+	clear:both;
+	border-bottom:1px solid #E1E1E1;
+	margin-bottom:10px;
+}
+
+#cpanel_inner_left_name a {
+	text-decoration:underline;
+	color:#09F;
+}
+
+#cpanel_inner_left_links {
+	
+}
+
+#cpanel_inner_left_links a {
+	display:block;
+	color:#A1A1A1;
+	padding:5px;
+	background:#F5F5F5;
+	margin-bottom:1px;
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+}
+
+#cpanel_inner_left_links a:last-child {
+	margin-bottom:0;
+}
+
+#cpanel_inner_left_links a:hover {
+	text-decoration:none;
+	background:#FC0;
+	color:#000;
+}
+
+#cpanel_inner_main_options {
+	border-bottom:1px solid #E1E1E1;
+	position:relative;
+	z-index:1;
+	padding-bottom:10px;
+}
+
+#cpanel_inner_main_options_options{
+	
+}
+
+#cpanel_inner_main_main {
+	padding:10px 0;
+	position:relative;
+	z-index:0;
+	/*Create absolutely positioned controls to scroll and fetch overflowing content - either a scroll bar, or two sided buttons*/
+}
+
+#form_wrapper {
+	border:1px solid #E1E1E1;
+	box-shadow:0 0 5px #D5D5D5;
+	-moz-box-shadow:0 0 5px #D5D5D5;
+	-webkit-box-shadow:0 0 5px #D5D5D5;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+#p_opt_cont {
+	float:left;
+	width:100%;/*width should be 100% unlike the usual 97.2% of its folks because it has no padding*/
+}
+
+#form_lft {
+	width:70%;
+	float:left;
+}
+
+#form_rt {
+	width:100px;
+	overflow:hidden;
+	float:right;
+	height:100px;
+	border:1px solid #E1E1E1;
+	font-size:90%;
+	text-shadow:1px 1px 1px #000;
+	color:#FFF;
+}
+
+#file_upload_field {
+	position:absolute;
+	z-index:-1;
+	visibility:hidden;
+}
+
+#update_file_upload_field {
+	position:absolute;
+	z-index:-1;
+	visibility:hidden;
+}
+
+#pic_upload {
+	position:relative;
+	width:100%;
+	cursor:pointer;
+	height:100%;
+	background:url("../image/default.png") no-repeat;
+	background-position:center;
+}
+
+#update_pic_upload {
+	position:relative;
+	width:100%;
+	cursor:pointer;
+	height:100%;
+	background:url("../image/default.png") no-repeat;
+	background-position:center;
+}
+
+#conf_box {
+	float:left;
+	width:95%;
+	padding:10px;
+	position:absolute;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#conf_box_inner {
+	background:#FFF;
+	width:100%;
+	float:left;
+}
+
+#conf_desc {
+	padding:10px;
+	background:#F5F5F5;
+}
+
+#conf_msg {
+	font-weight:bold;
+	padding:10px;
+	color:#FFF;
+	background:#F06;
+}
+
+#conf_adv {
+	border-top:1px solid #E1E1E1;
+	border-bottom:1px solid #E1E1E1;
+	padding:10px;
+	font-size:85%;
+}
+
+#form_title {
+	font-size:150%;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-bottom:10px;
+	color:#000;
+	width:75%;
+	float:left;
+}
+
+#cpanel_button{
+	float:right;
+}
+
+#add_itm {
+	padding-bottom:10px;
+	float:left;
+	width:100%;
+}
+
+#sta_div {
+	padding-bottom:10px;
+	float:right;
+	width:35%;
+	text-align:right;
+}
+
+#sup_sel {
+	float:left;
+	width:40%;
+}
+
+#sta_div button{/*remove the right margin from these buttons so that they start right at the right edge*/
+	margin-right:0;
+	width:6em;
+	margin-left:10px;
+	background:#E1E1E1;
+	border:1px solid #CCC;
+}
+
+#form_comm {
+	padding-top:10px;
+	font-style:italic;
+	width:100%;
+	clear:both;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:90%;
+}
+
+#itm_form {
+	top:0;
+	left:10px;
+	z-index:100;
+	padding:10px;
+	position:absolute;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#itm_form input[type="text"] {
+	width:16em;
+	border:1px solid #09F;
+	height:2.5em;
+	line-height:2.5em;
+	margin-bottom:10px;
+	padding:0 5px;
+}
+
+#itm_form select {
+	width:16.9em;
+}
+
+#itm_inner {
+	background:#FFF;
+	width:100%;
+}
+
+#itm_msg {
+	font-weight:bold;
+	padding:10px;
+	color:#FFF;
+	background:#09F;
+}
+
+#itm_tsk {
+	padding:10px;
+	padding-bottom:0;
+	position:relative;
+	border-top:1px solid #E1E1E1;
+	border-bottom:1px solid #E1E1E1;
+}
+
+#itm_desc {
+	padding:10px;
+}
+
+#o_date {
+	font-size:120%;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+	text-align:right;
+	float:right;
+	color:#09F;
+}
+
+#sup_sel_div {/*it is from this div the the select box in the javascript is fetched. and so it is hidden so that it does not occur twice.
+we've used this approach because the options are derived by PHP ajax, which does not work via javascript
+alternatively we can use ajax to call a specific function in php which has the option box. lol!
+we did this because we were doing a quick upgrade*/
+	display:none;
+}
+
+#form_itm {
+	clear:both;
+}
+
+#supp_name {
+	font-size:150%;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#A1A1A1;
+	width:60%;
+	padding-bottom:5px;
+	float:left;
+}
+
+#cust_name_{
+	float:left;
+}
+
+#teller_name {
+	font-size:80%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#A1A1A1;
+	width:30%;
+	text-align:right;
+	float:right;
+}
+
+#input_qty {
+	font-size:150%;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F06;
+	width:40%;
+	padding-bottom:5px;
+	float:right;
+	text-align:right;
+}
+
+#sup_id {
+	display:none;
+}
+
+#po_sta {
+	display:none;
+}
+
+#ed_sta {
+	display:none;
+}
+
+#more_acc {
+	float:left;
+	width:100%;
+}
+
+#l_dat {
+	float:right;
+	color:#F06;
+	font-size:85%;
+}
+
+#input_unit {
+	display:none;
+}
+
+#input_price {
+	display:none;
+}
+
+#itm_name {
+	display:none;
+}
+
+#itm_unit {
+	display:none;
+}
+
+#r_set{
+	display:none;
+	position:absolute;
+	top:3.5em;
+	height:20em;
+	width:16.7em;
+	background:#FFF;
+	border:1px solid #E1E1E1;
+	opacity:0.99;
+	-moz-opacity:0.99;
+	-webkit-opacity:0.98;
+	margin:0;
+	padding:0;
+	overflow:scroll;
+}
+
+#r_set li{
+	list-style-type:none;
+	padding:10px 5px;
+	cursor:pointer;
+	border-bottom:1px solid #E1E1E1;
+}
+
+#r_set li:hover{
+	background:#09F;
+	color:#FFF;
+}
+
+#dialog_box{
+	color:#036;
+	display:none;
+	position:fixed;
+	z-index:100;
+	background:#FFF;
+}
+
+#dialog_box_head{
+	padding:10px;
+	background:#F5F5F5;
+	text-shadow:1px 1px 1px #FFF;
+	color:#555;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#dialog_box_body{
+	padding:10px;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#dialog_box_foot{
+	padding:10px;
+}
+
+.but{
+	transition:all 0.5s linear 0.1s;
+	-moz-transition:all 0.5s linear 0.1s;
+	-webkit-transition:all 0.5s linear 0.1s;
+	-o-transition:all 0.5s linear 0.1s;
+	background:#FC0;
+	font-size:100%;
+	padding:11px;
+	color:#000;
+	cursor:pointer;
+	border:1px solid #F90;
+	text-align:center;
+}
+
+.but:hover{
+	box-shadow:0 0 2px #A1A1A1;
+	-moz-box-shadow:0 0 2px #A1A1A1;
+	-webkit-box-shadow:0 0 2px #A1A1A1;
+}
+
+#msg_but{
+	width:10%;
+	margin-right:10px;
+	float:right;
+}
+
+#send_msg_but{
+	float:right;
+	width:20%;
+}
+
+#pos_but{
+	width:20%;
+	display:inline-block;/*Thank you Jesus. Block display clears both sides, and the other displays cause it to align incorrectly - so inline-block fixes it!*/
+}
+
+#dialog_box_overlay{
+	display:none;
+	top:0;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-webkit-opacity:0.5;
+	-khtml-opacity: 0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:90;
+}
+
+div#msg_area {
+	padding:10px;
+	background:#F5F5F5;
+	color:#0C0;
+	font-size:250%;
+}
+
+#msg_tit{
+	float:left;
+	width:50%;
+}
+
+#sbj{
+	padding:10px;
+	background:#FAFAFA;
+	color:#09F;
+}
+
+#frm{
+	background:#F5F5F5;
+	color:#036;
+	padding:10px;
+}
+
+#msg_esc{
+	float:right;
+	color:#CCC;
+	font-weight:bold;
+	cursor:pointer;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	text-align:center;
+}
+
+#msg_esc:hover{
+	color:#A1A1A1;
+}
+
+#spacer{
+	clear:both;
+}
+
+#dialog_head_spacer{
+	clear:both;
+}
+
+#dialog_foot_spacer{
+	clear:both;
+}
+
+#itm_max_qty{
+	float:right;
+	text-align:right;
+	color:#0C0;
+}
+
+#tics_title{
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+#add_module{
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border:1px solid #FFF;
+	width:1em;
+	height:1em;
+	line-height:1em;
+}
