@@ -1306,7 +1306,6 @@ a.back_but:hover{
 
 .form_inputs_subsection_title{
 	padding:10px;
-	text-align:center;
 	border-bottom:1px solid #FFF;
 	border-top:1px solid #FFF;
 	margin-bottom:1em;
@@ -1326,4 +1325,9 @@ a.back_but:hover{
 
 #country_section select{
 	width:100%;
+}
+
+.refree_list_entry_title{
+	margin-bottom:10px;
+	font-size:80%;
 }

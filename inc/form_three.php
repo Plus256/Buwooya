@@ -31,7 +31,7 @@
         <div id="personal_background_body">
           <div><textarea placeholder="Tell us about you and your Christian Walk." name="about_you"></textarea></div>
           <div><textarea placeholder="How did you hear about Buwooya?" name="how_you_heard"></textarea></div>
-          <div><textarea placeholder="Do you have experience in youth, children, or relevant christian work?" name="previous_experience"></textarea></div>
+          <div><textarea placeholder="Do you have experience in Youth, Children, or relevant Christian work?" name="previous_experience"></textarea></div>
           <div><textarea placeholder="Why are you interested in this trip?" name="why_interest"></textarea></div>
           <div class="spacer"></div>
         </div>

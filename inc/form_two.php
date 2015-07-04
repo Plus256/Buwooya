@@ -59,9 +59,34 @@
             <div id="trip_refree_instr" style="margin-bottom:10px;">
               All three are required, one of whom is your church leader.<br />The other two should have known you for at least one year, peers and family excluded.
             </div>
-            <div><input type="text" placeholder="Church Leader" name="" /></div>
-            <div><input type="text" placeholder="Other" name="" /></div>
-            <div><input type="text" placeholder="Other" name="" /></div>
+            <div id="refree_list">
+
+              <div class="refree_list_entry">
+                <div class="refree_list_entry_title">Church Leader</div>
+                <div><input type="text" placeholder="Full Name" name="" /></div>
+                <div><input type="text" placeholder="Email Address" name="" /></div>
+                <div><input type="text" placeholder="Phone Number" name="" /></div>
+                <div class="spacer"></div>
+              </div>
+
+              <div class="refree_list_entry">
+                <div class="refree_list_entry_title">First Other</div>
+                <div><input type="text" placeholder="Full Name" name="" /></div>
+                <div><input type="text" placeholder="Email Address" name="" /></div>
+                <div><input type="text" placeholder="Phone Number" name="" /></div>
+                <div class="spacer"></div>
+              </div>
+
+              <div class="refree_list_entry">
+                <div class="refree_list_entry_title">Second Other</div>
+                <div><input type="text" placeholder="Full Name" name="" /></div>
+                <div><input type="text" placeholder="Email Address" name="" /></div>
+                <div><input type="text" placeholder="Phone Number" name="" /></div>
+                <div class="spacer"></div>
+              </div>
+
+              <div class="spacer"></div>
+            </div>
           </div>
           <div class="spacer"></div>
         </div>
