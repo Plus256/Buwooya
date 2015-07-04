@@ -1291,7 +1291,7 @@ a.back_but{
 	display:inline-block;
 	color:#09F;
 	font-size:80%;
-	border:1px solid #09F;
+	border:1px dashed #09F;
 	padding:5px 10px 5px 7px;
 }
 
@@ -1330,4 +1330,5 @@ a.back_but:hover{
 .refree_list_entry_title{
 	margin-bottom:10px;
 	font-size:80%;
+	text-decoration:underline;
 }
