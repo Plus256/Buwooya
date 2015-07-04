@@ -17,8 +17,17 @@
         <div id="trip_period" class="form_inputs_subsection">
           <div id="trip_period_title" class="form_inputs_subsection_title">Period</div>
           <div id="trip_period_body">
-            <div><input type="text" placeholder="From" name="" /></div>
-            <div><input type="text" placeholder="To" name="" /></div>
+
+            <div class="trip_period_calendar">
+              <div class="trip_period_calendar_title">From</div>
+              <div><?php require("calendar.php"); ?></div>
+            </div>
+
+            <div class="trip_period_calendar">
+              <div class="trip_period_calendar_title">To</div>
+              <div><?php require("calendar.php"); ?></div>
+            </div>
+
           </div>
           <div class="spacer"></div>
         </div>

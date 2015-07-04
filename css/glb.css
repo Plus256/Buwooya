@@ -1305,7 +1305,7 @@ a.back_but:hover{
 }
 
 .form_inputs_subsection_title{
-	padding:10px;
+	padding:10px 0;
 	border-bottom:1px solid #FFF;
 	border-top:1px solid #FFF;
 	margin-bottom:1em;
@@ -1327,8 +1327,12 @@ a.back_but:hover{
 	width:100%;
 }
 
-.refree_list_entry_title{
+.refree_list_entry_title, .trip_period_calendar_title{
 	margin-bottom:10px;
 	font-size:80%;
 	text-decoration:underline;
+}
+
+.trip_period_calendar{
+	margin-bottom:10px;
 }
