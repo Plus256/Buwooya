@@ -975,6 +975,7 @@ input[type="button"].apply_submit_but{
 	background:#000;
 	color:#FE5F5E;
 	font-weight:bold;
+	width:20%;
 }
 
 input[type="button"].apply_submit_but:hover{
