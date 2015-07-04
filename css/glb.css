@@ -2,6 +2,7 @@ body {
 	font-family:Helvetica Neue, Verdana, Geneva, sans-serif;
 	margin:0;
 	color:#000;
+	overflow:hidden;
 	/*background:rgb(250, 255, 250);*/
 }
 
@@ -116,22 +117,27 @@ a:hover {
     height:100%;
 }
 
+#mobile_menu_container{
+	position:absolute;
+	background:#FE5F5E;
+	visibility:hidden;
+	z-index:0;
+	top:5em;
+	right:-11em;
+	width:10em;
+	transition:all 1s ease 0.1s;
+	-moz-transition:all 1s ease 0.1s;
+	-webkit-transition:all 1s ease 0.1s;
+	-o-transition:all 1s ease 0.1s;
+}
+
 #mobile_menu:hover div#mobile_menu_container{
-	display:block;
+	visibility:visible;
+	right:0;
 }
 
 #mobile_menu:hover div#mobile_menu_icon .mobile_menu_icon_stripe{
 	background:#FE5F5E;
-}
-
-#mobile_menu_container{
-	position:absolute;
-	background:#FE5F5E;
-	display:none;
-	z-index:20;
-	right:0;
-	top:5em;
-	width:10em;
 }
 
 #mobile_menu ul{
@@ -196,8 +202,8 @@ a:hover {
 	-o-border-radius:5em;
 	cursor:pointer;
 	display:inline-block;
-    vertical-align:middle;
-    transition:border 1s ease 0.1s;
+  vertical-align:middle;
+  transition:border 1s ease 0.1s;
 	-moz-transition:border 1s ease 0.1s;
 	-webkit-transition:border 1s ease 0.1s;
 	-o-transition:border 1s ease 0.1s;
