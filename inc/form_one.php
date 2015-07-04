@@ -20,7 +20,7 @@
         <div style="margin-bottom:10px">
           <div style="margin-bottom:10px">Birthday</div>
           <div>
-            <?php require_once("calendar.php"); ?>
+            <?php require_once("birth_calendar.php"); ?>
           </div>
           <div class="spacer"></div>
         </div>

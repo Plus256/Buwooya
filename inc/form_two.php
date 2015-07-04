@@ -20,12 +20,12 @@
 
             <div class="trip_period_calendar">
               <div class="trip_period_calendar_title">From</div>
-              <div><?php require("calendar.php"); ?></div>
+              <div><?php require_once("from_calendar.php"); ?></div>
             </div>
 
             <div class="trip_period_calendar">
               <div class="trip_period_calendar_title">To</div>
-              <div><?php require("calendar.php"); ?></div>
+              <div><?php require_once("to_calendar.php"); ?></div>
             </div>
 
           </div>
