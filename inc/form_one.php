@@ -19,6 +19,22 @@
         <div style="margin-bottom:10px">
           <div style="margin-bottom:10px">Birthday</div>
           <div>
+            <select name="birthday_year" id="birthday_year">
+                <option value="0" selected="selected">-- Year --</option>
+                <?php
+                $this_year=date('Y');//we're calculating minimum year - applicant must be between 13 and 100
+                $min_year=$this_year-13;
+                $max_year=$this_year-100;
+                $i=$max_year;
+                  while($i<=$min_year){//for loop doesn't initialize at high values! shocked!
+                    ?>
+                    <option value="<?php echo "".$i."" ?>"><?php echo $i ?></option>
+                    <?php
+                    $i++;
+                  }
+                ?>
+              </select>
+              <!--end of year-->
               <select name="birthday_month" id="birthday_month">
                 <option value="0" selected="selected">-- Month --</option>
                 <?php
@@ -37,21 +53,6 @@
                 <!--we shall append days when month is selected-->
               </select>
               <!--end of month day-->
-              <select name="birthday_year">
-                <option value="0" selected="selected">-- Year --</option>
-                <?php
-                $this_year=date('Y');//we're calculating minimum year - applicant must be between 13 and 100
-                $min_year=$this_year-13;
-                $max_year=$this_year-100;
-                $i=$max_year;
-                  while($i<=$min_year){//for loop doesn't initialize at high values! shocked!
-                    ?>
-                    <option value="<?php echo "".$i."" ?>"><?php echo $i ?></option>
-                    <?php
-                    $i++;
-                  }
-                ?>
-              </select>
           </div>
           <div class="spacer"></div>
         </div>
