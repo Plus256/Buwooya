@@ -121,7 +121,7 @@ a:hover {
 	position:absolute;
 	background:#FE5F5E;
 	visibility:hidden;
-	z-index:0;
+	z-index:20;
 	top:5em;
 	right:-12em;
 	width:10em;
