@@ -94,8 +94,8 @@ a:hover {
 }
 
 .mobile_menu_icon_stripe{
-	padding:5px;
-	background:#FC0;
+	padding:2px 10px;
+	background:#FFF;
 }
 
 .mobile_menu_icon_stripe:nth-child(2){
@@ -120,23 +120,17 @@ a:hover {
 	display:block;
 }
 
-#mobile_menu:hover div#mobile_menu_icon{
-	background:rgb(255, 204, 0);
-	background:rgba(255, 204, 0, 0.75);
-}
-
 #mobile_menu:hover div#mobile_menu_icon .mobile_menu_icon_stripe{
-	background:#333;
+	background:#FE5F5E;
 }
 
 #mobile_menu_container{
 	position:absolute;
-	background:rgb(255, 204, 0);
-	background:rgba(255, 204, 0, 0.75);
+	background:#FE5F5E;
 	display:none;
 	z-index:20;
 	right:0;
-	top:4em;
+	top:5em;
 	width:10em;
 }
 
