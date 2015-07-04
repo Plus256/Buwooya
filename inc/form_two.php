@@ -72,7 +72,8 @@
     <div class="term_note">
         Continuing implies you agree with our <a href="#">Statement of Faith</a>, Terms and Conditions.
     </div>
-    <div class="apply_cancel_but_cont">
+    <div class="back_or_cancel_but_cont">
+        <a href="#" class="back_but">&lt;</a>
         <a href="#" class="cancel_but">Cancel</a>
     </div>
     <div id="apply_submit_but_cont"><input type="button" value="SAVE & CONTINUE" class="apply_submit_but" onclick="getForm('three');" /></div>

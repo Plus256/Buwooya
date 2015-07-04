@@ -99,7 +99,7 @@
     <div class="term_note">
         Continuing implies you agree with our <a href="#">Statement of Faith</a>, Terms and Conditions.
     </div>
-    <div class="apply_cancel_but_cont">
+    <div class="back_or_cancel_but_cont">
         <a href="#" class="cancel_but">Cancel</a>
         <div class="spacer"></div>
     </div>

@@ -1268,8 +1268,9 @@ input[type="text"]:focus{
 	margin-bottom:1em;
 }
 
-.apply_cancel_but_cont{
+.back_or_cancel_but_cont{
 	text-align:center;
+	margin-bottom:10px;
 }
 
 a.cancel_but{
@@ -1282,6 +1283,20 @@ a.cancel_but{
 }
 
 a.cancel_but:hover{
+	color:#F00;
+	border:1px solid #F00;
+}
+
+a.back_but{
+	text-decoration:none;
+	display:inline-block;
+	color:#000;
+	font-size:80%;
+	border:1px solid #000;
+	padding:5px;
+}
+
+a.back_but:hover{
 	color:#F00;
 	border:1px solid #F00;
 }
@@ -1312,8 +1327,4 @@ a.cancel_but:hover{
 
 #country_section select{
 	width:100%;
-}
-
-.apply_cancel_but_cont{
-	margin-bottom:10px;
 }
