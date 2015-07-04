@@ -49,7 +49,7 @@ function getMonthDays(){
 				var i=1;
 				/*FEBRUARY AND LEAP YEARS*/
 				if(month_index==2 && (year%4)==0){//we shall write a leapyear function later
-					while(i<data){
+					while(i<data){//stop at the 28th day
 						var option=_("option");
 						option.setAttribute("value", i);
 						option.innerHTML=i;
