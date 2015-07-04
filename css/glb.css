@@ -1290,15 +1290,15 @@ a.cancel_but:hover{
 a.back_but{
 	text-decoration:none;
 	display:inline-block;
-	color:#000;
+	color:#09F;
 	font-size:80%;
-	border:1px solid #000;
-	padding:5px;
+	border:1px solid #09F;
+	padding:5px 10px 5px 7px;
 }
 
 a.back_but:hover{
-	color:#F00;
-	border:1px solid #F00;
+	color:#FFF;
+	background:#09F;
 }
 
 .form_inputs_subsection{
