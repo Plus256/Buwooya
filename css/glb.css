@@ -1218,12 +1218,19 @@ input[type="text"]:focus{
 	width:100%;
 }
 
-.apply_form_title{
-	padding:10px;
+.apply_form_timeline{
 	margin-bottom:1em;
 	margin-right:auto;
 	margin-left:auto;
 	text-align:center;
+}
+
+a.apply_form_timeline_step{
+	background:#EFEFEF;
+	padding:10px 5em;
+	text-decoration:none;
+	display:inline-block;
+	color:#09F;
 }
 
 .radio_label{
@@ -1241,25 +1248,6 @@ input[type="text"]:focus{
 
 .term_note a{
 	color:#09F;
-}
-
-#form_one div.apply_form_title{
-	background:#CCC;
-}
-
-#form_two div.apply_form_title{
-	background:#FCB910;
-	color:#FFF;
-}
-
-#form_three div.apply_form_title{
-	background:#179B49;
-	color:#FFF;
-}
-
-#form_review div.apply_form_title{
-	background:#09F;
-	color:#FFF;
 }
 
 .form_feedback{
@@ -1286,20 +1274,6 @@ a.cancel_but{
 a.cancel_but:hover{
 	color:#F00;
 	border:1px solid #F00;
-}
-
-a.back_but{
-	text-decoration:none;
-	display:inline-block;
-	color:#09F;
-	font-size:80%;
-	border:1px dashed #09F;
-	padding:5px 10px 5px 7px;
-}
-
-a.back_but:hover{
-	color:#FFF;
-	background:#09F;
 }
 
 .form_inputs_subsection{

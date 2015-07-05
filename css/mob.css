@@ -129,8 +129,13 @@
 		width:calc(100% - 40px);
 	}
 
-	.apply_form_title{
-		width:calc(100% - 40px);
+	.apply_form_timeline{
+		width:calc(100% - 20px);
+	}
+
+	a.apply_form_timeline_step{
+		display:block;
+		margin-bottom:5px;
 	}
 
 	textarea{

@@ -1,7 +1,10 @@
 <form method="post" id="form_one">
-    <div class="apply_form_title">
-        <div style="padding:10px;">Step 1 of 3</div>
-        <div style="padding:10px;">Personal Details</div>
+    <div class="apply_form_timeline">
+        <a href="#" class="apply_form_timeline_step" style="background:#A6CE39; color:#FFF;" onclick="return false;">Personal</a>
+        <a href="#" class="apply_form_timeline_step" onclick="return false;">Trip</a>
+        <a href="#" class="apply_form_timeline_step" onclick="return false;">Background</a>
+        <a href="#" class="apply_form_timeline_step" onclick="return false;">Review</a>
+        <div class="spacer"></div>
     </div>
     <div class="apply_form_inputs">
         <div><input type="text" placeholder="First Name" name="" /></div>

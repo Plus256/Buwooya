@@ -4,10 +4,10 @@
   <option value="0" selected="selected">-- Year --</option>
   <?php
   $this_year=date('Y');//we're calculating minimum year - applicant must be between 13 and 100
-  $min_year=$this_year-13;
-  $max_year=$this_year-100;
-  $i=$max_year;
-    while($i<=$min_year){//for loop doesn't initialize at high values! shocked!
+  $min_year=$this_year;
+  $max_year=$this_year+10;
+  $i=$min_year;
+    while($i<=$max_year){//for loop doesn't initialize at high values! shocked!
       ?>
       <option value="<?php echo "".$i."" ?>"><?php echo $i ?></option>
       <?php

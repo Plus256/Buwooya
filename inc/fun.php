@@ -3,6 +3,7 @@ require_once("cnf.php");
 require_once("sendgrid.php");
 //get the number of days in the month
 if(isset($_GET['get_month_days'])){
+  $today=date('j');//this day of the month
   $this_month=$_GET['this_month'];
   $q=mysqli_query($conn, "select * from month where id=$this_month");
   while($r=mysqli_fetch_assoc($q)){
