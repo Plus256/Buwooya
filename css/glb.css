@@ -1,5 +1,6 @@
 body {
 	font-family:Helvetica Neue, Verdana, Geneva, sans-serif;
+	/*'adobe-clean','HelveticaNeue-Light',Helvetica,Arial,sans-serif*/
 	margin:0;
 	color:#000;
 	overflow-x:hidden;
@@ -1267,13 +1268,13 @@ a.cancel_but{
 	display:inline-block;
 	color:#000;
 	font-size:80%;
-	border:1px solid #000;
+	border:1px dashed #000;
 	padding:5px;
 }
 
 a.cancel_but:hover{
 	color:#F00;
-	border:1px solid #F00;
+	border:1px dashed #F00;
 }
 
 .form_inputs_subsection{
