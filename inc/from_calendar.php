@@ -18,18 +18,7 @@
   <!--end of year-->
   <select name="from_month" id="from_month">
   <option value="0" selected="selected">-- Month --</option>
-  <?php
-  $this_month=date('n');//minimum month
-  require_once("cnf.php");
-    $q=mysqli_query($conn, "select id, name from month order by id asc");
-    while($r=mysqli_fetch_assoc($q)){
-      //if($r['id']>=$this_month){//how about for years greater than this???? we need to know selected year - JAVASCRIPT
-      ?>
-      <option value="<?php echo "".$r['id']."" ?>"><?php echo $r['name'] ?></option>
-      <?php
-      //}
-    }
-  ?>
+  <!--we're adding months dynamically this time-->
   </select>
   <!--end of month-->
   <select name="from_month_day" id="from_month_day">
