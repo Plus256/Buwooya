@@ -5,7 +5,7 @@ session_start();
 $host="127.0.0.1";
 $db="buwooya";
 $user="root";
-$pwd="";
+$pwd="root";
 $port=3306;
 $conn=mysqli_connect($host, $user, $pwd, $db, $port) or die(mysqli_error());
 /*end of local*/
