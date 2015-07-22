@@ -25,6 +25,7 @@ require_once("inc/fun.php");
 <!--www.plus256.com-->
 <script type="text/javascript" src="js/fun.js"></script>
 <script type="text/javascript" src="js/apply.js"></script>
+<script type="text/javascript" src="js/details.js"></script>
 <script src="//use.typekit.net/nww6oyv.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 </head>

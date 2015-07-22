@@ -1162,12 +1162,12 @@ input[type="button"].apply_submit_but:hover{
 	padding:10px 0;
 }
 
-#application_title{
+#application_title, #details_title{
 	text-align:center;
 	padding:1em 0;
 }
 
-#application_title a{
+#application_title a, #details_title a{
 	display:block;
 	font-size:50%;
 	color:#A1A1A1;
@@ -1180,11 +1180,11 @@ input[type="button"].apply_submit_but:hover{
 	margin-right:auto;
 }
 
-#application_title a:hover{
+#application_title a:hover, #details_title a:hover{
 	border:2px solid #A1A1A1;
 }
 
-#application_body{
+#application_body, #application_body{
 	padding:1em 0;
 }
 
