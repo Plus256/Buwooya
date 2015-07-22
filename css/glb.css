@@ -1173,6 +1173,7 @@ input[type="button"].apply_submit_but:hover{
 	color:#A1A1A1;
 	text-decoration:none;
 	border:2px solid #F96;
+	border-radius:5em;
 	padding:1em;
 	margin-top:5px;
 	width:10em;

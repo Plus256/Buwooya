@@ -1,6 +1,6 @@
 <div id="carousel">
     <img src="<?php echo $cover; ?>" />
-    <div id="carousel_container">
+    <!--<div id="carousel_container">
     	<div class="wrapper">
     	    <div id="hot_cause">
     	        <div id="hot_cause_title">Support the Children</div>
@@ -15,5 +15,5 @@
     	    </div>
             <div class="spacer"></div>
         </div>
-    </div>
+    </div>-->
 </div>
