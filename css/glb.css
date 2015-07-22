@@ -1316,6 +1316,29 @@ a.cancel_but:hover{
 }
 
 .details_cat_body{
-	padding:10px;
 	margin-bottom:1em;
+}
+
+.details_entry_thumb{
+	width:50%;
+	float:left;
+	padding:10px;
+}
+
+.details_entry_thumb img, .details_entry_caption img{
+	width:100%;
+	height:auto;
+}
+
+.details_entry_caption{
+	overflow:hidden;
+	padding:10px;
+}
+
+.details_entry_caption_title{
+	font-size:150%;
+}
+
+.details_entry_caption_body{
+	font-size:90%;
 }
