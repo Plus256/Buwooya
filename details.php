@@ -12,7 +12,7 @@ require_once("inc/ban.php");
       <div id="details_body">
         <!--program details and fees loaded here via JS-->
         <script type="text/javascript">
-            getDetails();
+            getDetails("accomodation");
         </script>
       </div>
       <div class="spacer"></div>

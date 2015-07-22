@@ -1219,14 +1219,14 @@ input[type="text"]:focus{
 	width:100%;
 }
 
-.apply_form_timeline{
+.apply_form_timeline, .details_links{
 	margin-bottom:1em;
 	margin-right:auto;
 	margin-left:auto;
 	text-align:center;
 }
 
-a.apply_form_timeline_step{
+a.apply_form_timeline_step, a.details_links_cat{
 	background:#EFEFEF;
 	padding:10px 5em;
 	text-decoration:none;
@@ -1312,4 +1312,9 @@ a.cancel_but:hover{
 
 .trip_period_calendar{
 	margin-bottom:10px;
+}
+
+.details_cat_body{
+	padding:10px;
+	margin-bottom:1em;
 }
