@@ -125,15 +125,15 @@
 		border-bottom:none;
 	}
 
-	.apply_form_inputs{
+	.apply_form_inputs, .details_cat_body{
 		width:calc(100% - 40px);
 	}
 
-	.apply_form_timeline{
+	.apply_form_timeline, .details_links{
 		width:calc(100% - 20px);
 	}
 
-	a.apply_form_timeline_step{
+	a.apply_form_timeline_step, a.details_links_cat{
 		display:block;
 		margin-bottom:5px;
 	}
