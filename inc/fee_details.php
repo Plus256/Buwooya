@@ -1,71 +1,47 @@
 <?php
 ?>
 <div class="details_links">
-  <a href="#" class="details_links_cat" style="background:#A6CE39; color:#FFF;" onclick="return false;">Accomodation</a>
-  <a href="#" class="details_links_cat" onclick="getDetails('fee'); return false;">Fees</a>
+  <a href="#" class="details_links_cat" onclick="getDetails('accomodation'); return false;">Accomodation</a>
+  <a href="#" class="details_links_cat" style="background:#A6CE39; color:#FFF;" onclick="return false;">Fees</a>
   <a href="#" class="details_links_cat" onclick="getDetails('internship'); return false;">Internships</a>
   <a href="#" class="details_links_cat" onclick="getDetails('planning'); return false;">Planning</a>
   <div class="spacer"></div>
 </div>
 <div class="details_cat_body">
 
-  <div class="details_entry">
-    <div class="details_entry_thumb">
-      <img src="img/acc_one.jpg" />
-    </div>
-    <div class="details_entry_caption">
-      <div class="details_entry_caption_title">
-        The House
-      </div>
-      <div class="details_entry_caption_body">
-        <p>
-          During village trips accommodation may range from simple guesthouses to mattresses on the floor of the church to camping in tents.
-          Be prepared to have no electricity, to shower with a bucket of water or baby wipes, and to use a squatty potty! (hole-in-the-ground toilet).
-        </p>
-        <p>
-          All volunteers and teams will stay at Buwooya Child Care Ministries guesthouse in Buwooya Village.
-          The house is  secure and westernized.
-        </p>
-        <p>
-          Even though the house is westernized, Buwooya is still an African Village, with no electricity, has solar power and some times no running water.
-        </p>
-        <p>
-          The atmosphere at the guesthouses is very community-oriented. You'll be living with other international volunteers and a few of Buwooya Child Care Ministries Ugandan  staff members, giving you a chance to get to know the team very well.
-        <br />You will likely be sharing a room with other volunteers of the same sex.
-        </p>
-      </div>
-      <div class="spacer"></div>
-    </div>
-    <div class="spacer"></div>
-  </div>
+  <table id="fees_table">
+      <tr>
+        <td>Volunteer Period (Weeks)</td>
+        <td>1</td><td>2</td><td>3</td><td>4</td><td>6</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td>
+      </tr>
+      <tr>
+        <td>Working with Children</td>
+        <td>-</td><td>-</td><td>USD 465</td><td>USD 545</td><td>USD 830</td><td>USD 1050</td><td>USD 1470</td><td>USD 1890</td><td>USD 2310</td><td>USD 2730</td>
+      </tr>
+      <tr>
+        <td>Teaching and Assisting in Schools</td>
+        <td>-</td><td>USD 360</td><td>USD 465</td><td>USD 545</td><td>USD 830</td><td>USD 1050</td><td>USD 1470</td><td>USD 1890</td><td>USD 2310</td><td>USD 2730</td>
+      </tr>
+      <tr>
+        <td>Medical</td>
+        <td>-</td><td>USD 36</td><td>USD 465</td><td>USD 545</td><td>USD 830</td><td>USD 1050</td><td>USD 1470</td><td>USD 1890</td><td>USD 2310</td><td>USD 2730</td>
+      </tr>
+  </table>
 
   <div class="details_entry">
     <div class="details_entry_thumb">
       <div class="details_entry_caption_title">
-        Drinking Water
-      </div>
-      <div class="details_entry_caption_body">
-        <p>Drinking water from the tap is not recommended. The guesthouse boils water to kill any germs and bacteria.
-        Each volunteer will take turns boiling water in the evenings to ensure there is enough drinking water the next day.<br />You may also purchase your own bottled water (at your own expense) if you choose not to drink the water provided by the guesthouse.</p>
-      </div>
-      <div class="details_entry_caption_title">
-        Showering
+        What is included in my Program Fee?
       </div>
       <div class="details_entry_caption_body">
         <p>
-          There is running water in the Buwooya Child Care guesthouse. As long as showers are spaced apart long enough, And on occasion  we have to fetch water from a nearby well. In these times you will have to shower with a cup and basin of water for a few days.
+          The program fees listed above cover accommodation, food, orientation, transport, and in-country support staff throughout the duration of your volunteer placement. A small amount is also set aside for future program development. When you consider the costs you might incur at a hotel or eating at restaurants, the costs are minimal.
         </p>
         <p>
-          When staying in the village there is no running water and you will be using a cup and basin of water to shower. Shower stalls are usually outside and made up of a brick wall enclosure that may or may not have a roof. Warm water may not be available. Again, please be flexible in the village.
+          Plus, as Buwooya Child Care Ministries offers non-profit program fees, you know that every penny of your program fee is going directly to the local organisations and the people you have chosen to support. Our local partners are grassroot organisations, and in most cases are solely funded by volunteer fees. For them to be able to continue the amazing work they do, volunteer fees and donations are essential.
         </p>
-      </div>
-      <div class="details_entry_caption_title">
-        Washing Clothes
-      </div>
-      <div class="details_entry_caption_body">
         <p>
-          There are a few options for washing clothes. You may go to a laundromat near the house, give your clothes to our housekeeper who will wash clothes once a week for a small fee (usually $2-$3), or hand wash them yourself.<br />
-          Please provide your own laundry soap. This can be bought at a supermarket close to the guesthouse or you can certainly bring some.
+          Ultimately, it is a decision of where you would like your money to go... to a hotel, or to a local family? We know which one we'd choose!
         </p>
       </div>
       <div class="spacer"></div>
@@ -78,21 +54,20 @@
 
   <div class="details_entry">
     <div class="details_entry_thumb">
-      <img src="img/acc_three.jpg" />
+      <img src="img/acc_one.jpg" />
     </div>
     <div class="details_entry_caption">
       <div class="details_entry_caption_title">
-        Food
+        Why do I need to pay a registration fee?
       </div>
       <div class="details_entry_caption_body">
         <p>
-          Breakfast usually consists of toast and tea. During the weekdays, lunches are prepared for the entire team. The normal lunches are beans and rice. The international volunteers and staff that live in the guesthouse take turns cooking dinner.
+          A Buwooya Child Care Ministries registration fee of US$249 is charged in addition to the program fees and is valid for 12 months from the start of your first intended placement.
+          This fee is the ONLY source of income Buwooya Child Ministries receives, and is among the lowest of  all volunteer organisations (we encourage you to check!).
         </p>
         <p>
-          Dinners can range from the typical Ugandan  meal to simple American meals such as spaghetti. The typical Ugandan meal is meat or beans mixed and fried with vegetables, rice, matooke (a boiled plantain) posho/ugali (mixed cornmeal), and potatoes.<br />Fruits, such as pineapple and bananas are typically around the house as a snack.
-        </p>
-        <p>
-          We advise you to bring some spending money for westernized meals outside the guesthouse. There are also westernized grocery stores that sell westernized items. You should also consider bringing snacks from home: peanut butter, beef jerky, trail mix, cookies, crackers, chips, granola bars, and power bars.<br />These are third world countries and do not have the wide variety of snacks that you may be used to.
+          This fee ensures pre- and post- placement support from Buwooya Child Care Ministries, checking and vetting local organisations and regularly reviewing our 100+ programs, a comprehensive information pack as well as administration and marketing costs.
+          From the outset, we have kept our overheads down to ensure you pay the lowest possible fees. We do not spend your money on an office or company cars, like other organisations, we’re just a team of passionate people from who love helping you help the world!
         </p>
       </div>
       <div class="spacer"></div>
@@ -103,29 +78,16 @@
   <div class="details_entry">
     <div class="details_entry_thumb">
       <div class="details_entry_caption_title">
-        Wi-Fi
+        What other expenses will I have to cover?
       </div>
       <div class="details_entry_caption_body">
         <p>
-          Buwooya Child Care  guesthouses in  Uganda has no wireless Internet access, although we have internet modem . This will allow you to stay in touch with loved ones at home. There is no access to Wi-Fi in the village.
+          Volunteers are also responsible for arranging and paying for their own flights, travel insurance, visas and vaccinations (if required), as well as any spending money they may require.
+          <ul>
+            <li>The inclusion of meals and transportation can vary, and is often country and program specific, so please check the Details page for additional information.</li>
+            <li>All transaction costs pertaining to online, bank or wire transfers are additional to the program fee and must be covered by the volunteer.</li>
+          </ul>
         </p>
-      </div>
-      <div class="details_entry_caption_title">
-        Cell Phones
-      </div>
-      <div class="details_entry_caption_body">
-        <p>
-          You can certainly bring a cell phone if it takes a SIM card. Once you get to your destination you can buy a SIM card with a Ugandan  number for about $5. There is also the option of buying a phone in Uganda for $40.<br />Some long term volunteers do this to communicate with staff while in Africa, however most download a phone app or Skype to communicate with friends and family.
-        </p>
-      </div>
-      <div class="details_entry_caption_title">
-        Mail/Postal Services
-      </div>
-      <div class="details_entry_caption_body">
-        <p>
-          If someone wants to send you a package please allow at least 4 – 8 weeks for it to arrive from the US. Your friends and family can send mail to you at:
-        </p>
-        <b>Buwooya Child Care Ministries, P. O. Box 1100 Lugazi, Uganda</b>
       </div>
       <div class="spacer"></div>
     </div>

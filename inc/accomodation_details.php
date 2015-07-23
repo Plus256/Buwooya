@@ -123,9 +123,9 @@
       </div>
       <div class="details_entry_caption_body">
         <p>
-          If someone wants to send you a package please allow at least 4 – 8 weeks for it to arrive from the US. Your friends and family can send mail to you at:
+          If someone wants to send you a package please allow at least 4 – 8 weeks for it to arrive from the US. Your friends and family can send mail to you at:<br />
+          <span style="color:#09F;">Buwooya Child Care Ministries, P. O. Box 1100 Lugazi, Uganda</span>
         </p>
-        <b>Buwooya Child Care Ministries, P. O. Box 1100 Lugazi, Uganda</b>
       </div>
       <div class="spacer"></div>
     </div>

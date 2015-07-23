@@ -1342,3 +1342,28 @@ a.cancel_but:hover{
 .details_entry_caption_body{
 	font-size:90%;
 }
+
+table#fees_table{
+	border:0;
+	width:100%;
+	border-spacing:0;
+	margin-bottom:1em;
+}
+
+table#fees_table tr{
+	background:#EFEFEF;
+}
+
+table#fees_table tr:nth-child(even){
+	background:#A6CE39;
+}
+
+table#fees_table td{
+	text-align:center;
+	padding:10px;
+	border:0;
+}
+
+table#fees_table td:first-child{
+	text-align:left;
+}
