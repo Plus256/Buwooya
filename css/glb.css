@@ -1351,11 +1351,23 @@ table#fees_table{
 }
 
 table#fees_table tr{
-	background:#EFEFEF;
+	background:#FAFAFA;
+}
+
+table#fees_table tr td:first-child{
+	font-style:italic;
+}
+
+table#fees_table tr:first-child td{
+	font-weight:bold;
+}
+
+table#fees_table tr:first-child td:first-child{
+	font-weight:normal;
 }
 
 table#fees_table tr:nth-child(even){
-	background:#A6CE39;
+	background:#F1F1F1;
 }
 
 table#fees_table td{

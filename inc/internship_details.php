@@ -1,9 +1,9 @@
 <?php
 ?>
 <div class="details_links">
-  <a href="#" class="details_links_cat" style="background:#A6CE39; color:#FFF;" onclick="return false;">Accomodation</a>
+  <a href="#" class="details_links_cat" onclick="getDetails('accomodation'); return false;">Accomodation</a>
   <a href="#" class="details_links_cat" onclick="getDetails('fee'); return false;">Fees</a>
-  <a href="#" class="details_links_cat" onclick="getDetails('internship'); return false;">Internships</a>
+  <a href="#" class="details_links_cat" style="background:#A6CE39; color:#FFF;" onclick="return false;">Internships</a>
   <a href="#" class="details_links_cat" onclick="getDetails('planning'); return false;">Planning</a>
   <div class="spacer"></div>
 </div>
@@ -11,27 +11,18 @@
 
   <div class="details_entry">
     <div class="details_entry_thumb">
-      <img src="img/acc_one.jpg" />
+      <img src="img/fees_one.jpg" />
     </div>
     <div class="details_entry_caption">
       <div class="details_entry_caption_title">
-        The House
+        Jobs and internships
       </div>
       <div class="details_entry_caption_body">
         <p>
-          During village trips accommodation may range from simple guesthouses to mattresses on the floor of the church to camping in tents.
-          Be prepared to have no electricity, to shower with a bucket of water or baby wipes, and to use a squatty potty! (hole-in-the-ground toilet).
+          Buwooya Child Care Ministries offers internship programs within our organization in the Uganda. These programs are designed for university/college students before, during, or after completion of their studies.
         </p>
         <p>
-          All volunteers and teams will stay at Buwooya Child Care Ministries guesthouse in Buwooya Village.
-          The house is  secure and westernized.
-        </p>
-        <p>
-          Even though the house is westernized, Buwooya is still an African Village, with no electricity, has solar power and some times no running water.
-        </p>
-        <p>
-          The atmosphere at the guesthouses is very community-oriented. You'll be living with other international volunteers and a few of Buwooya Child Care Ministries Ugandan  staff members, giving you a chance to get to know the team very well.
-        <br />You will likely be sharing a room with other volunteers of the same sex.
+          All Internship programs are on a voluntary basis and are non-payable. A certificate and recommendation letters are availed after completion of the program. If your school has certain requirements, such as weekly evaluations to be completed by our overseeing staff, please contact us to make sure we can meet all the requirements your school has. In the past we’ve been able to work with all requirements schools have had for their students’ internships.
         </p>
       </div>
       <div class="spacer"></div>
@@ -42,30 +33,27 @@
   <div class="details_entry">
     <div class="details_entry_thumb">
       <div class="details_entry_caption_title">
-        Drinking Water
-      </div>
-      <div class="details_entry_caption_body">
-        <p>Drinking water from the tap is not recommended. The guesthouse boils water to kill any germs and bacteria.
-        Each volunteer will take turns boiling water in the evenings to ensure there is enough drinking water the next day.<br />You may also purchase your own bottled water (at your own expense) if you choose not to drink the water provided by the guesthouse.</p>
-      </div>
-      <div class="details_entry_caption_title">
-        Showering
+        Marketing
       </div>
       <div class="details_entry_caption_body">
         <p>
-          There is running water in the Buwooya Child Care guesthouse. As long as showers are spaced apart long enough, And on occasion  we have to fetch water from a nearby well. In these times you will have to shower with a cup and basin of water for a few days.
-        </p>
-        <p>
-          When staying in the village there is no running water and you will be using a cup and basin of water to shower. Shower stalls are usually outside and made up of a brick wall enclosure that may or may not have a roof. Warm water may not be available. Again, please be flexible in the village.
+          Duties would include updating Buwooya Child Care Ministries, social network pages, working with the Communications Intern in Africa to keep blog and newsletters up to date, assisting in marketing campaigns fundraising events.
         </p>
       </div>
       <div class="details_entry_caption_title">
-        Washing Clothes
+        Graphic Design
       </div>
       <div class="details_entry_caption_body">
         <p>
-          There are a few options for washing clothes. You may go to a laundromat near the house, give your clothes to our housekeeper who will wash clothes once a week for a small fee (usually $2-$3), or hand wash them yourself.<br />
-          Please provide your own laundry soap. This can be bought at a supermarket close to the guesthouse or you can certainly bring some.
+          Duties would include designing promotional material, brochures, flyers, banners, and booklets.
+        </p>
+      </div>
+      <div class="details_entry_caption_title">
+        Child Sponsorship
+      </div>
+      <div class="details_entry_caption_body">
+        <p>
+          Working directly with the Buwooya Child Care Ministries office in Uganda, this placement would work under the Operational Manager and Child Welfare Coordinator assisting with updating the children’s database, creating new children’s profiles, and participating with children’s meetings and mentor programs. This placement would fulfill requirements, depending on your academic institution, for courses of study in Social Science, Social Work, and International Studies.
         </p>
       </div>
       <div class="spacer"></div>
@@ -82,17 +70,25 @@
     </div>
     <div class="details_entry_caption">
       <div class="details_entry_caption_title">
-        Food
+        Communications
       </div>
       <div class="details_entry_caption_body">
         <p>
-          Breakfast usually consists of toast and tea. During the weekdays, lunches are prepared for the entire team. The normal lunches are beans and rice. The international volunteers and staff that live in the guesthouse take turns cooking dinner.
+          Working directly with the Buwooya Child Care Ministries office in Uganda, this placement would include creating bi-monthly newsletters, blogging on weekly activities of the organization, and working with our Social Networking Coordinator in the U.S. to give up-to-date information from the field for Internet communication and social networking.
         </p>
         <p>
-          Dinners can range from the typical Ugandan  meal to simple American meals such as spaghetti. The typical Ugandan meal is meat or beans mixed and fried with vegetables, rice, matooke (a boiled plantain) posho/ugali (mixed cornmeal), and potatoes.<br />Fruits, such as pineapple and bananas are typically around the house as a snack.
+          This placement would fulfill requirements, depending on your academic institution for courses of study, in Communicat ions, Public Relations, and Marketing.
+        </p>
+      </div>
+      <div class="details_entry_caption_title">
+        Ministry
+      </div>
+      <div class="details_entry_caption_body">
+        <p>
+          Working directly with the Buwooya Child Care Ministries office in Uganda, this placement would include creating bi-monthly newsletters, blogging on weekly activities of the organization, and working with our Social Networking Coordinator in the U.S. to give up-to-date information from the field for Internet communication and social networking.
         </p>
         <p>
-          We advise you to bring some spending money for westernized meals outside the guesthouse. There are also westernized grocery stores that sell westernized items. You should also consider bringing snacks from home: peanut butter, beef jerky, trail mix, cookies, crackers, chips, granola bars, and power bars.<br />These are third world countries and do not have the wide variety of snacks that you may be used to.
+          This placement would fulfill requirements, depending on your academic institution for courses of study, in Communicat ions, Public Relations, and Marketing.
         </p>
       </div>
       <div class="spacer"></div>
@@ -103,34 +99,25 @@
   <div class="details_entry">
     <div class="details_entry_thumb">
       <div class="details_entry_caption_title">
-        Wi-Fi
+        Medical
       </div>
       <div class="details_entry_caption_body">
         <p>
-          Buwooya Child Care  guesthouses in  Uganda has no wireless Internet access, although we have internet modem . This will allow you to stay in touch with loved ones at home. There is no access to Wi-Fi in the village.
+          Medical interns would be placed at government and private hospitals around Kampala or at community clinics. Responsibilities would include administrating first aid, monitoring vitals, and conducting basic health education trainings.
         </p>
       </div>
       <div class="details_entry_caption_title">
-        Cell Phones
+        Student Teaching
       </div>
       <div class="details_entry_caption_body">
         <p>
-          You can certainly bring a cell phone if it takes a SIM card. Once you get to your destination you can buy a SIM card with a Ugandan  number for about $5. There is also the option of buying a phone in Uganda for $40.<br />Some long term volunteers do this to communicate with staff while in Africa, however most download a phone app or Skype to communicate with friends and family.
+          Education majors have the option to conduct their student teaching in Africa. Student teachers would be placed at a primary or high school and follow specific curriculum designed by the country. They would have the opportunity to bring teaching techniques and resources they have learned through their college. Typical teaching methods used in the U.S. may not be used in Uganda but could dramatically help improve students performance in class.
         </p>
-      </div>
-      <div class="details_entry_caption_title">
-        Mail/Postal Services
-      </div>
-      <div class="details_entry_caption_body">
-        <p>
-          If someone wants to send you a package please allow at least 4 – 8 weeks for it to arrive from the US. Your friends and family can send mail to you at:
-        </p>
-        <b>Buwooya Child Care Ministries, P. O. Box 1100 Lugazi, Uganda</b>
       </div>
       <div class="spacer"></div>
     </div>
     <div class="details_entry_caption">
-      <img src="img/acc_two.jpg" />
+      <img src="img/fees_two.jpg" />
     </div>
     <div class="spacer"></div>
   </div>

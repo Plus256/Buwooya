@@ -47,7 +47,7 @@
       <div class="spacer"></div>
     </div>
     <div class="details_entry_caption">
-      <img src="img/acc_four.jpg" />
+      <img src="img/get_involved.jpg" />
     </div>
     <div class="spacer"></div>
   </div>
