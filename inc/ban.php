@@ -6,7 +6,7 @@
         </div>
         <div id="menu">
         	<ul>
-            	<li><a href="./#donate">DONATE</a></li>
+            	<!--<li><a href="./#donate">DONATE</a></li>-->
   <li><a href="./apply.php">VOLUNTEER</a></li>              <li><a href="./#projects">PROJECTS</a></li>
                 <li><a href="./#about">ABOUT US</a></li>
             </ul>
@@ -16,7 +16,7 @@
             <div id="mobile_menu_icon"><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div></div>
             <div id="mobile_menu_container">
                 <ul>
-                	<li><a href="./#donate">DONATE</a></li>
+                	<!--<li><a href="./#donate">DONATE</a></li>-->
     <li><a href="./apply.php">VOLUNTEER</a></li>                <li><a href="./#projects">PROJECTS</a></li>
                     <li><a href="./#about">ABOUT US</a></li>
                 </ul>

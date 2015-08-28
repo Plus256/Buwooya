@@ -5,7 +5,7 @@ require_once("inc/car.php");
 require_once("inc/inv.php");
 require_once("inc/abt.php");
 require_once("inc/pro.php");
-require_once("inc/don.php");
+//require_once("inc/don.php");
 require_once("inc/cnt.php");
 require_once("inc/fot.php");
 ?>
