@@ -16,8 +16,8 @@
           </section>
           <section class="staff_item_text_main">
             <p>Meet the man behind the vision.</p>
-            <p>Moses is a programmer, with a deep passion for security.<br />With a Computer Science background, he heads IT at OFC.</p>
-            <p>If not writing code, he's playing guitar, or football.</p>
+            <p>Moses is a very talented confident young man with a deep passion for children.<br />He has worked with Rafiki Children's Home, and he's now the Executive Director at Buwooya Childcare.</p>
+            <p>Here's his <a href="#">Story</a>.</p>
           </section>
           <div class="spacer"></div>
         </section>
