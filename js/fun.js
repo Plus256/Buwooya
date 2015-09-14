@@ -189,3 +189,11 @@ function initAll(){
 		///
 	}
 }
+
+function $(x){
+	return document.getElementById(x);
+}
+
+function _(x){
+	return document.createElement(x);
+}

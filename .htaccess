@@ -3,4 +3,6 @@ Options -Indexes
 RewriteEngine On
 
 RewriteRule ^staff$ ./staff.php [NC,L]
+RewriteRule ^volunteer$ ./apply.php [NC,L]
+RewriteRule ^programdetails$ ./details.php [NC,L]
 ErrorDocument 404 http://localhost:8888/Buwooya/

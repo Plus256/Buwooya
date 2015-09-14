@@ -11,7 +11,7 @@
       </div>
       <div id="involve_thumb">
         <div id="program_details_link">
-          <a href="./details">Check out the Program Details</a>
+          <a href="./programdetails">Check out the Program Details</a>
           <br /><br />or
         </div>
         <a id="apply_button" href="./volunteer">Apply Now</a>
