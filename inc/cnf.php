@@ -20,8 +20,7 @@ $conn=mysqli_connect($host, $user, $pwd, $db, $port) or die(mysqli_error());
 /*end of remote*/
 $short_name="Buwooya Childcare";
 $full_name="Buwooya Childcare Ministries";
-$logo="gra/logo.png";
-$cover="img/cover.jpg";
-$tel="+256 789 610744";
+$slogan="Empowering the Vulnerable";
+$logo="gra/logo_theme.png";
 $noscript="Enable JavaScript in your browser to have the best experience at ".$short_name;
 ?>

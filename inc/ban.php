@@ -1,34 +1,35 @@
-<div id="banner">
+<header id="banner">
     <div class="wrapper">
-        <div id="logo"><a href="./"><img src="<?php echo $logo; ?>" /></a></div>
+        <div id="logo"><a href="./"><?php echo file_get_contents("gra/logo.svg"); ?></a></div>
     	<div id="short_name">
         	<?php //echo $short_name; ?>
         </div>
-        <div id="menu">
+        <nav id="menu">
         	<ul>
-            	<!--<li><a href="./#donate">DONATE</a></li>-->
-  <li><a href="./apply.php">VOLUNTEER</a></li>              <li><a href="./#projects">PROJECTS</a></li>
-                <li><a href="./#about">ABOUT US</a></li>
+              <li><a href="./volunteer">VOLUNTEER</a></li>
+              <li><a href="./projects">PROJECTS</a></li>
+              <li><a href="./donate">DONATE</a></li>
+              <li><a href="./staff">ABOUT</a></li>
+              <li><a href="./contact">CONTACT</a></li>
             </ul>
-        </div>
+        </nav>
         <!--Begin Mobile Menu-->
-        <div id="mobile_menu">
-            <div id="mobile_menu_icon"><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div></div>
+        <nav id="mobile_menu">
+            <div><?php echo file_get_contents("gra/ic_menu.svg"); ?></div>
             <div id="mobile_menu_container">
+              <div id="menu_drawer_cancel"><?php echo file_get_contents("gra/ic_cancel.svg"); ?></div>
                 <ul>
-                	<!--<li><a href="./#donate">DONATE</a></li>-->
-    <li><a href="./apply.php">VOLUNTEER</a></li>                <li><a href="./#projects">PROJECTS</a></li>
-                    <li><a href="./#about">ABOUT US</a></li>
+                  <li><a href="./volunteer">VOLUNTEER</a></li>
+                  <li><a href="./projects">PROJECTS</a></li>
+                  <li><a href="./donate">DONATE</a></li>
+                  <li><a href="./staff">ABOUT</a></li>
+                  <li><a href="./contact">CONTACT</a></li>
                 </ul>
                 <div class="spacer"></div>
             </div>
             <div class="spacer"></div>
-        </div>
+        </nav>
         <!--End Mobile Menu-->
-        <div id="message_container">
-        	<span id="message" onClick="msg_dialog.render();">Message</span>
-        	<div class="spacer"></div>
-        </div>
         <div class="spacer"></div>
     </div>
-</div>
+</header>

@@ -1,43 +1,59 @@
-<div id="projects">
+<section id="projects">
     <div class="wrapper">
-        <div id="projects_title" class="text_title">Take a Look at our Projects</div>
-        <div id="projects_body">
-            
-            <div class="project_item">
-                <div class="project_item_cover"><img src="img/community.jpg" ></div>
-                <div class="project_item_body">
-                    <div class="project_item_body_title">Community</div>
-                    <div class="project_item_body_text">Creating projects that encourage development.</div>
-                    <div class="spacer"></div>
-                </div>
-                <div class="project_item_overlay"></div>
-                <div class="spacer"></div>
-            </div>
-            
-            <div class="project_item">
-                <div class="project_item_cover"><img src="img/environment.jpg" ></div>
-                <div class="project_item_body">
-                    <div class="project_item_body_title">Environment</div>
-                    <div class="project_item_body_text">Educating the locals about conservation.</div>
-                    <div class="spacer"></div>
-                </div>
-                <div class="project_item_overlay"></div>
-                <div class="spacer"></div>
-            </div>
-            
-            <div class="project_item">
-                <div class="project_item_cover"><img src="img/construction.jpg" ></div>
-                <div class="project_item_body">
-                    <div class="project_item_body_title">Construction</div>
-                    <div class="project_item_body_text">Building homes for the most vulnerable children.</div>
-                    <div class="spacer"></div>
-                </div>
-                <div class="project_item_overlay"></div>
-                <div class="spacer"></div>
-            </div>
-            
-            <div class="spacer"></div>
-        </div>
-        <div class="spacer"></div>
+      <div id="projects_header" class="section_text_header">
+        Meet the Children
+      </div>
+      <div id="projects_main">
+
+        <a href="#" class="project_item" id="bright_boys">
+          <section class="project_item_header">
+            <img src="img/bright_boys.jpg" />
+          </section>
+          <h4>MARVIN</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+        <a href="#" class="project_item" id="environmentalist">
+          <section class="project_item_header">
+            <img src="img/environmentalist.jpg" />
+          </section>
+          <h4>EUNICE</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+        <a href="#" class="project_item" id="smart_boy">
+          <section class="project_item_header">
+            <img src="img/smart_boy.jpg" />
+          </section>
+          <h4>EDGAR</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+        <a href="#" class="project_item" id="shy_boy">
+          <section class="project_item_header">
+            <img src="img/shy_boy.jpg" />
+          </section>
+          <h4>CHRIS</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+        <a href="#" class="project_item" id="cute_girl">
+          <section class="project_item_header">
+            <img src="img/cute_girl.jpg" />
+          </section>
+          <h4>SYDNEY</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+        <a href="#" class="project_item" id="laugh_star">
+          <section class="project_item_header">
+            <img src="img/laugh_star.jpg" />
+          </section>
+          <h4>COLLINS</h4>
+          <p>Dedicated to seeing children reach their full potential in life. We believe in the power of Play.</p>
+        </a>
+
+      </div>
+      <div class="spacer"></div>
     </div>
-</div>
+</section>

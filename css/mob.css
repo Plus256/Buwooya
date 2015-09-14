@@ -4,6 +4,79 @@
 	}
 }
 
+@media only screen and (min-width:641px) and (max-width:980px){
+	#menu{
+		padding-right:10px;
+	}
+
+	#play_text, #about_text, #involve_text{
+		padding:1em;
+	}
+
+	.section_text_header, #contact_title{
+		font-size:200%;
+	}
+
+	a.project_item{
+		width:40%;
+	}
+
+	#copyright{
+		float:none;
+		clear:both;
+		margin-right:0;
+	}
+
+	.staff_item_text_header{
+		font-size:200%;
+	}
+
+	.staff_item_text{
+		padding:1em;
+	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
+	}
+}
+
+/* tablets portrait*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+	#menu{
+		padding-right:10px;
+	}
+
+	#play_text, #about_text, #involve_text{
+		padding:1em;
+	}
+
+	.section_text_header, #contact_title{
+		font-size:200%;
+	}
+
+	a.project_item{
+		width:40%;
+	}
+
+	#copyright{
+		float:none;
+		clear:both;
+		margin-right:0;
+	}
+
+	.staff_item_text_header{
+		font-size:200%;
+	}
+
+	.staff_item_text{
+		padding:1em;
+	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
+	}
+}
+
 @media only screen and (max-width:640px){
 	#carousel_container{
 		display:none;
@@ -61,88 +134,52 @@
 		display:block;
 		float:none;
 		text-align:center;
+		margin-right:0;
 	}
 
-	#about div.wrapper, #projects div.wrapper, #donate div.wrapper, #get_involved div.wrapper{
-		padding-left:10px;
-		padding-right:10px;
+	.section_text_header, #contact_title{
+		font-size:200%;
+	}
+
+	#contact_email{
+		font-size:100%;
+	}
+
+	#play_thumb{
+		float:none;
+		width:auto;
+	}
+
+	#play_text, #about_text, #involve_text{
+		padding:1em;
+		overflow:hidden;
 		text-align:center;
 	}
 
-	#get_involved_body{
-		width:auto;
-		float:none;
-	}
-
-	#get_involved_thumb{
-		overflow:none;
-	}
-
-	#get_involved_thumb img{
-		width:100%;
-		height:auto;
-	}
-
-	#about div#intro{
-		float:none;
-		width:auto;
-	}
-
-	#about div#mission{
-		overflow:none;
-		padding-left:0;
-	}
-
-	.project_item{
-		width:auto;
-		float:none;
-	}
-
-	.project_item:nth-child(1){
-		position:static;
-	}
-
-	.project_item:nth-child(2){
-		margin:2em 0;
-	}
-
-	.project_item:nth-child(3){
-		position:static;
-	}
-
-	#get_involved_action a#apply_button{
-		width:auto;
-	}
-
-	#contact{
-		padding-bottom:10px;
-		padding-top:10px;
-	}
-
-	#contact div.wrapper{
-		padding-left:10px;
-		padding-right:10px;
-		border-bottom:none;
-	}
-
-	.apply_form_inputs, .details_cat_body{
-		width:calc(100% - 40px);
-	}
-
-	.apply_form_timeline, .details_links{
-		width:calc(100% - 20px);
-	}
-
-	a.apply_form_timeline_step, a.details_links_cat{
+	a.project_item{
 		display:block;
-		margin-bottom:5px;
+		width:auto;
 	}
 
-	textarea{
-		width:calc(100% - 1px);
+	a.project_item p{
+		padding-bottom:10px;
 	}
 
-	input[type="button"].apply_submit_but{
-		width:50%;
+	.staff_item_thumb{
+		float:none;
+		width:auto;
+	}
+
+	.staff_item_text{
+		padding:1em;
+		text-align:center;
+	}
+
+	.staff_item_text_header{
+		font-size:200%;
+	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
 	}
 }
