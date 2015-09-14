@@ -925,7 +925,12 @@ input[type="button"].apply_submit_but:hover{
 }
 
 #program_details_link a{
-	color:#555;
+	color:#000;
+	text-decoration:underline;
+}
+
+#program_details_link a:hover{
+	text-decoration:none;
 }
 
 #donate{
@@ -1301,10 +1306,10 @@ video#hero_video{
 	display:block;
 	text-decoration:none;
 	font-size:2em;
-	border:2px solid #FE5F5E;
+	border:2px solid #5BBC2E;
 	margin:auto;
 	width:30%;
-	color:#FE5F5E;
+	color:#5BBC2E;
 	text-align:center;
 	padding:0.5em 1em;
 	border-radius:5em;
