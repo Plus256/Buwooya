@@ -38,6 +38,12 @@
 	#staff_header{
 		padding:3.5em 0 1em 0;
 	}
+
+	.details_entry_thumb{
+		width:auto;
+		float:none;
+		padding:10px;
+	}
 }
 
 /* tablets portrait*/
@@ -74,6 +80,12 @@
 
 	#staff_header{
 		padding:3.5em 0 1em 0;
+	}
+
+	.details_entry_thumb{
+		width:auto;
+		float:none;
+		padding:10px;
 	}
 }
 
@@ -185,5 +197,28 @@
 
 	#involve_thumb a#apply_button{
 		font-size:100%;
+	}
+
+	.details_entry_thumb{
+		width:auto;
+		float:none;
+		padding:10px;
+	}
+
+	a.apply_form_timeline_step, a.details_links_cat{
+		display:block;
+		margin-bottom:10px;
+	}
+
+	.apply_form_timeline, .details_links{
+		padding:0 10px;
+	}
+
+	.apply_form_inputs input[type="text"], #country_section select{
+		width:calc(100% - 20px);
+	}
+
+	.apply_form_inputs{
+		width:100%;
 	}
 }
