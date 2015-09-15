@@ -182,4 +182,8 @@
 	#staff_header{
 		padding:3.5em 0 1em 0;
 	}
+
+	#involve_thumb a#apply_button{
+		font-size:100%;
+	}
 }
